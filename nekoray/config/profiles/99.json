@@ -1,0 +1,45 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "midorinote.online",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "xtls-rprx-vision",
+        "mux": 0,
+        "name": "🇳🇱 Нидерланды",
+        "pass": "5d362b5d-c71c-462b-a8bf-bca23d6d2cbd",
+        "port": 8443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "tcp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "Cxvc5bVMKln6RxPs5MtviUZNDsmpfuYUK8UFBlcBaS0",
+            "sec": "reality",
+            "sid": "808e2d36726ee97e",
+            "sni": "midorinote.org",
+            "utls": "random"
+        }
+    },
+    "dl": "",
+    "gid": 1,
+    "id": 99,
+    "report": "",
+    "traffic": {
+        "dl": 39040844,
+        "ul": 593835
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 48
+}

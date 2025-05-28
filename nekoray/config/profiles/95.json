@@ -1,0 +1,45 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "crapelo.site",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "xtls-rprx-vision",
+        "mux": 0,
+        "name": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Англия",
+        "pass": "fb46b3fe-286b-4000-9b3a-6396fd8e6542",
+        "port": 8443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "tcp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "NqSAN1b9lkRLJRn5TEDG0wj7ljN8WvMdXyokJXzIxCs",
+            "sec": "reality",
+            "sid": "f48e9fd6d8333785",
+            "sni": "norkello.com",
+            "utls": "random"
+        }
+    },
+    "dl": "",
+    "gid": 1,
+    "id": 95,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 70
+}

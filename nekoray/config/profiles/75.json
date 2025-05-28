@@ -1,0 +1,45 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "wintassa.site",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "xtls-rprx-vision",
+        "mux": 0,
+        "name": "🇨🇦 Канада",
+        "pass": "d3f730e2-de7c-49b9-b450-715b36b4a96b",
+        "port": 8443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "tcp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "CfFyRy7BlzQMmXIeWQI1QaBwL8z1TVoaTFmGSRsqXHs",
+            "sec": "reality",
+            "sid": "18260a022e1511e7",
+            "sni": "wintassa.com",
+            "utls": "random"
+        }
+    },
+    "dl": "125.62Mbps",
+    "gid": 1,
+    "id": 75,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": -1
+}

@@ -1,0 +1,45 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "skoffery.store",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "xtls-rprx-vision",
+        "mux": 0,
+        "name": "🇫🇮 Финляндия",
+        "pass": "bdba4a43-69a9-425a-a9ce-dc78bde61256",
+        "port": 8443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "tcp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "sIxUEhQz9B17--Buqgm9UmSUkYVewtKKXR62OB_LNkY",
+            "sec": "reality",
+            "sid": "69e6bf47a9d3be87",
+            "sni": "skoffery.com",
+            "utls": "random"
+        }
+    },
+    "dl": "",
+    "gid": 1,
+    "id": 100,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 90
+}

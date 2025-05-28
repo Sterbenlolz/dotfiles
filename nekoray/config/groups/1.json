@@ -1,0 +1,41 @@
+{
+    "archive": false,
+    "column_width": [
+        56,
+        173,
+        185,
+        226,
+        227
+    ],
+    "front_proxy_id": -1,
+    "id": 1,
+    "info": "upload=0; download=0; total=0; expire=0",
+    "landing_proxy_id": -1,
+    "lastup": 1748440500,
+    "manually_column_width": true,
+    "name": "proxyliberty.ru",
+    "order": [
+        96,
+        111,
+        99,
+        105,
+        98,
+        107,
+        113,
+        97,
+        95,
+        112,
+        87,
+        110,
+        109,
+        100,
+        76,
+        109,
+        26,
+        75,
+        104,
+        101
+    ],
+    "skip_auto_update": false,
+    "url": "https://proxyliberty.ru/connection/subs/5fc0ddbc-f460-445e-9e33-861cccdf1499"
+}

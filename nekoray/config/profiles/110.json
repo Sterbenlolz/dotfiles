@@ -1,0 +1,45 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "norkello.online",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "xtls-rprx-vision",
+        "mux": 0,
+        "name": "🇵🇱 Польша",
+        "pass": "5ba99ed2-e397-4f9f-802c-1b1007de8e10",
+        "port": 8443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "tcp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc",
+            "sec": "reality",
+            "sid": "8f222b3475800821",
+            "sni": "norkello.org",
+            "utls": "random"
+        }
+    },
+    "dl": "",
+    "gid": 1,
+    "id": 110,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 73
+}

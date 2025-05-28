@@ -1,0 +1,14 @@
+{
+    "current_route_id": 0,
+    "default_outbound": "proxy",
+    "direct_dns": "localhost",
+    "direct_dns_strategy": "prefer_ipv4",
+    "dns_final_out": "direct",
+    "dns_object": "",
+    "domain_strategy": "",
+    "outbound_domain_strategy": "",
+    "remote_dns": "https://dns.google/dns-query",
+    "remote_dns_strategy": "prefer_ipv6",
+    "sniffing_mode": 2,
+    "use_dns_object": false
+}

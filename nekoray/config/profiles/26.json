@@ -1,0 +1,45 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "jallermo.site",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "xtls-rprx-vision",
+        "mux": 0,
+        "name": "🇺🇸 США",
+        "pass": "92fa57ac-3689-43a2-902e-92ce3abd7083",
+        "port": 8443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "tcp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "61Svf2Pd08DRvSgCHyI_J-F7lhPLd_hg3mS_byFl_h0",
+            "sec": "reality",
+            "sid": "cefa7ca418bd0dcb",
+            "sni": "jallermo.com",
+            "utls": "random"
+        }
+    },
+    "dl": "131.98Mbps",
+    "gid": 1,
+    "id": 26,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 125
+}

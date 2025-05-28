@@ -1,0 +1,45 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "braskivo.ru",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "xtls-rprx-vision",
+        "mux": 0,
+        "name": "🇱🇻 Латвия",
+        "pass": "af6d2908-817e-4881-bd38-9f77a4df7b74",
+        "port": 8443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "tcp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0",
+            "sec": "reality",
+            "sid": "72b11c6ddbcfecf1",
+            "sni": "braskivo.com",
+            "utls": "random"
+        }
+    },
+    "dl": "",
+    "gid": 1,
+    "id": 111,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 47
+}

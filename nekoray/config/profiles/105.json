@@ -1,0 +1,45 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "hummylane.online",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "xtls-rprx-vision",
+        "mux": 0,
+        "name": "🇩🇪 Германия",
+        "pass": "cf76b440-8455-42e7-9020-2f7e3c7ac1e4",
+        "port": 8443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "tcp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "ky3t1iV9CUfV0YgTFUXb86wLGP1-5iy3mvBX0x05nSs",
+            "sec": "reality",
+            "sid": "d2bb16ec9f9bf907",
+            "sni": "hummylane.com",
+            "utls": "random"
+        }
+    },
+    "dl": "",
+    "gid": 1,
+    "id": 105,
+    "report": "",
+    "traffic": {
+        "dl": 21710968,
+        "ul": 1133086
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 51
+}

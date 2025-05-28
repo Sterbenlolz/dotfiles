@@ -1,0 +1,107 @@
+@import "./wallust/colors-waybar.css";
+
+* {
+    border: none;
+    border-radius: 0;
+	font-family: "JetBrainsMono NFP";
+    font-size: 13px;
+    min-height: 0;
+	padding: 0 5px;
+/*	transition-duration: 0.3s; */
+}
+
+#language {
+	padding: 0 5px;
+/*	font-family: "Ubuntu"; */
+	font-size: 14px;
+	font-weight: bold;
+	color: @color15;
+}
+
+
+
+window#waybar {
+    background: transparent;
+    color: @color15;
+}
+
+#window {
+    font-weight: bold;
+/*    font-family: "Ubuntu"; */
+}
+/*
+#workspaces {
+    padding: 0;
+}
+*/
+
+#workspaces button {
+    border-top: 2px solid @color0;
+    padding: 0;
+    background: transparent;
+    color: @color0;
+}
+
+#workspaces button.active {
+	padding: 0;
+	color: @color15;
+	border-top: 2px solid @color15;
+	transition: border-color 0.3s ease;
+	transition-duration: 0.3s;
+}
+
+#workspaces button:hover {
+	color: @foreground;
+	border-top: 2px solid @foreground;
+	box-shadow: inherit;
+	text-shadow: inherit;
+}
+
+#mode {
+    background: @color15;
+    border-bottom: 3px solid @color15;
+}
+
+#clock, #battery, #cpu, #memory, #network, #pulseaudio, #custom-spotify, #tray, #mode {
+    margin: 0 5px
+}
+
+#clock {	
+	color: @color15;
+    font-weight: bold;
+}
+
+#clock:hover {
+	color: @foreground;
+}
+
+
+@keyframes blink {
+    to {
+        background-color: @background;
+        color: @cursor;
+    }
+}
+
+#cpu {
+}
+
+#memory {
+}
+
+#network {
+}
+
+#network.disconnected {
+    background: @color12;
+}
+
+#pulseaudio {
+}
+
+#pulseaudio.muted {
+}
+
+#tray {
+}
+

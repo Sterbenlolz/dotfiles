@@ -1,0 +1,228 @@
+@import "./wallust/colors-wallust.css";
+ 
+* {
+    font-family: JetBrainsMono NFP;
+    font-weight: bold;
+	font-size: 14px
+}
+ 
+.control-center .notification-row:focus,
+.control-center .notification-row:hover {
+    opacity: 1;
+    background: @hovered;
+}
+ 
+.notification-row {
+    outline: none;
+    margin: 20px;
+    padding: 0;
+}
+ 
+.notification {
+    background: transparent;
+    margin: 0px;
+}
+ 
+.notification-content {
+    background: @background;
+    padding: 7px;
+    border-radius: 0px;
+    border: 2px solid @border;
+    margin: 0;
+}
+ 
+.close-button {
+    background: @button-active;
+    color: @text;
+    text-shadow: none;
+    padding: 0;
+    border-radius: 0px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+ 
+.close-button:hover {
+    box-shadow: none;
+    background: @hovered;
+    transition: all .15s ease-in-out;
+    border: none
+}
+ 
+.notification-action {
+    color: @text;
+    border: 2px solid @border;
+    border-top: none;
+    border-radius: 0px;
+    background: @background;
+}
+ 
+.notification-default-action:hover,
+.notification-action:hover {
+    color: @text;
+    background: @hovered;
+}
+ 
+.summary {
+	padding-top: 7px;
+    font-size: 13px;
+    color: @text;
+}
+ 
+.time {
+    font-size: 11px;
+    color: @text;
+    margin-right: 24px
+}
+ 
+.body {
+    font-size: 12px;
+    color: @text;
+}
+ 
+.control-center {
+    background: @background;
+    border: 2px solid @border;
+    border-radius: 0px;
+}
+ 
+.control-center-list {
+    background: transparent
+}
+ 
+.control-center-list-placeholder {
+    opacity: 1
+}
+ 
+.floating-notifications {
+    background: transparent
+}
+ 
+.blank-window {
+    background: alpha(black, 0.1);
+}
+ 
+.widget-title {
+    color: @text;
+    background: @background-alt;
+    padding: 5px 10px;
+    margin: 10px 10px 5px 10px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+ 
+.widget-title>button {
+    font-size: 1rem;
+    color: @text;
+    text-shadow: none;
+    background: @button-active;
+    box-shadow: none;
+    border-radius: 5px;
+}
+ 
+.widget-title>button:hover {
+    background: @hovered;
+    color: @text;
+}
+ 
+.widget-dnd {
+    background: @background-alt;
+    padding: 5px 10px;
+    margin: 5px 10px 10px 10px;
+    border-radius: 5px;
+    font-size: large;
+    color: @text;
+}
+ 
+.widget-dnd>switch {
+    border-radius: 4px;
+    background: @background;
+}
+ 
+.widget-dnd>switch:checked {
+    background: @background;
+    border: 1px solid @border;
+}
+ 
+.widget-dnd>switch slider {
+    background: @background;
+    border-radius: 5px
+}
+ 
+.widget-dnd>switch:checked slider {
+    background: @background;
+    border-radius: 5px
+}
+ 
+.widget-label {
+    margin: 10px 10px 5px 10px;
+}
+ 
+.widget-label>label {
+    font-size: 1rem;
+    color: @text;
+}
+ 
+.widget-mpris {
+    color: @text;
+    background: @background;
+    padding: 5px 10px 0px 0px;
+    margin: 5px 10px 5px 10px;
+    border-radius: 0px;
+}
+ 
+.widget-mpris > box > button {
+    border-radius: 5px;
+}
+ 
+.widget-mpris-player {
+    padding: 5px 10px;
+    margin: 10px
+}
+ 
+.widget-mpris-title {
+    font-weight: 700;
+    font-size: 1.25rem
+}
+ 
+.widget-mpris-subtitle {
+    font-size: 1.1rem
+}
+ 
+.widget-buttons-grid {
+    font-size: x-large;
+    padding: 5px;
+    margin: 5px 10px 10px 10px;
+    border-radius: 5px;
+    background: @background;
+	color: @text;
+}
+ 
+.widget-buttons-grid>flowbox>flowboxchild>button {
+    margin: 3px;
+    background: @button-active;
+    border-radius: 5px;
+    color: @text-color;
+}
+ 
+.widget-buttons-grid>flowbox>flowboxchild>button:hover {
+    background: @hovered;
+    color: @text;
+}
+ 
+.widget-menubar>box>.menu-button-bar>button {
+    border: none;
+    background: transparent;
+}
+ 
+.topbar-buttons>button {
+    border: none;
+    background: transparent;
+}
+
+.widget-volume label {
+	color: @background;
+}
+
+.widget-volume {
+	color: @text;
+}

@@ -1,0 +1,45 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "tralalero.site",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "xtls-rprx-vision",
+        "mux": 0,
+        "name": "🇮🇹 Италия",
+        "pass": "ec65f2b6-9e0f-4df0-8e47-1258e73e8d7a",
+        "port": 8443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "tcp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM",
+            "sec": "reality",
+            "sid": "4ffc99daad0f261f",
+            "sni": "tralalero.online",
+            "utls": "random"
+        }
+    },
+    "dl": "",
+    "gid": 1,
+    "id": 107,
+    "report": "",
+    "traffic": {
+        "dl": 51739442,
+        "ul": 922263
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 59
+}

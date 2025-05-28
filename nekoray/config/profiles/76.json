@@ -1,0 +1,45 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "quarenty.site",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "xtls-rprx-vision",
+        "mux": 0,
+        "name": "🇹🇷 Турция",
+        "pass": "c1a18406-2e0e-49fc-ac08-81e2901f0c32",
+        "port": 8443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "tcp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04",
+            "sec": "reality",
+            "sid": "c6ef72e4635d15a5",
+            "sni": "quarenty.com",
+            "utls": "random"
+        }
+    },
+    "dl": "379.66Mbps",
+    "gid": 1,
+    "id": 76,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 101
+}

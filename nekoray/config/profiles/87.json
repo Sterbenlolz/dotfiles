@@ -1,0 +1,45 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "velsanto.online",
+        "brutal_speed": 0,
+        "c_cfg": "",
+        "c_out": "",
+        "enable_brutal": false,
+        "flow": "xtls-rprx-vision",
+        "mux": 0,
+        "name": "🇪🇸 Испания",
+        "pass": "2561ebf0-8c91-4429-8304-2676206341af",
+        "port": 8443,
+        "stream": {
+            "alpn": "",
+            "cert": "",
+            "ed_len": 0,
+            "ed_name": "",
+            "h_type": "",
+            "headers": "",
+            "host": "",
+            "insecure": false,
+            "method": "",
+            "net": "tcp",
+            "pac_enc": "xudp",
+            "path": "",
+            "pbk": "zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg",
+            "sec": "reality",
+            "sid": "48fccabc158a4c22",
+            "sni": "velsanto.com",
+            "utls": "random"
+        }
+    },
+    "dl": "410.16Mbps",
+    "gid": 1,
+    "id": 87,
+    "report": "",
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "ul": "",
+    "yc": 72
+}
