@@ -9,6 +9,10 @@
 
 # Global section - values below can be overwritten by command line flags
 
+# Disabling default integration of kitty
+[kitty]
+enabled = false
+
 # How the image is parse, in order to get the colors:
 # full - resized - wal - thumb -  fastresize - kmeans
 backend = "full"
@@ -58,3 +62,6 @@ kitty.target = '~/.config/kitty/kitty-themes/01-Wallust.conf'
 
 swaync.template = 'colors-swaync.css'
 swaync.target = '~/.config/swaync/wallust/colors-wallust.css'
+
+starship.template = 'starship.toml'
+starship.target = '~/.config/starship.toml'

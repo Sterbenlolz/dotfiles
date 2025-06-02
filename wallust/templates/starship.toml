@@ -1,0 +1,45 @@
+# ~/.config/wallust/templates/starship.toml
+format = """
+[░▒▓]({{color7}})\
+[  ](bg:{{color7}} fg:{{color0}})\
+[](bg:{{color4}} fg:{{color7}})\
+$directory\
+[](fg:{{color4}} bg:{{color6}})\
+$git_branch\
+$git_status\
+[](fg:{{color6}} bg:{{color10}})\
+$nodejs\
+$python\
+[ ](fg:{{color10}})\
+$character"""
+
+[directory]
+style = "fg:{{foreground}} bg:{{color4}}"
+format = "[ $path ]($style)"
+truncate_to_repo = false
+truncation_length = 5
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+[git_branch]
+symbol = ""
+style = "bg:{{color6}}"
+format = '[[ $symbol $branch ](fg:{{foreground}} bg:{{color6}})]($style)'
+
+[git_status]
+style = "bg:{{color6}}"
+format = '[[($all_status$ahead_behind )](fg:{{foreground}} bg:{{color6}})]($style)'
+
+[nodejs]
+symbol = ""
+style = "bg:{{color10}}"
+format = '[[ $symbol ($version) ](fg:{{foreground}} bg:{{color10}})]($style)'
+
+[python]
+symbol = ""
+style = "bg:{{color10}}"
+format = '[[ $symbol ($version) ](fg:{{foreground}} bg:{{color10}})]($style)'

@@ -4,21 +4,20 @@
     border: none;
     border-radius: 0;
 	font-family: "JetBrainsMono NFP";
-    font-size: 13px;
+    font-size: 16px;
     min-height: 0;
 	padding: 0 5px;
 /*	transition-duration: 0.3s; */
+	font-weight: bold;
 }
 
 #language {
-	padding: 0 5px;
-/*	font-family: "Ubuntu"; */
-	font-size: 14px;
-	font-weight: bold;
 	color: @color15;
 }
 
-
+#language:hover {
+	color: @foreground;
+}
 
 window#waybar {
     background: transparent;
@@ -26,14 +25,7 @@ window#waybar {
 }
 
 #window {
-    font-weight: bold;
-/*    font-family: "Ubuntu"; */
 }
-/*
-#workspaces {
-    padding: 0;
-}
-*/
 
 #workspaces button {
     border-top: 2px solid @color0;
@@ -90,10 +82,19 @@ window#waybar {
 }
 
 #network {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #network.disconnected {
     background: @color12;
+}
+
+#network.details {
+   all: unset;
+   padding-left: 5px;
+   padding-right: 5px;
+   margin-bottom: -3px;
 }
 
 #pulseaudio {
