@@ -1,0 +1,152 @@
+{
+  "clock": {
+    "format": "{:%H:%M:%S %a, %Y %b%e}",
+    "interval": 1,
+    "tooltip-format": "<tt><small>{calendar}</small></tt>",
+    "locale": "en_US.UTF-8",
+    "calendar": {
+      "mode": "month",
+      "mode-mon-col": 3,
+      "weeks-pos": "left",
+      "on-scroll": 1,
+      "on-click-right": "mode",
+      "format": {
+        "months": "<span>{}</span>",
+        "days": "<span>{}</span>",
+        "weeks": "<span>{}</span>",
+        "weekdays": "<span>{}</span>",
+        "today": "<span>{}</span>"
+      }
+    },
+    "actions": {
+      "on-click-middle": "mode",
+      "on-scroll-up": "shift_up",
+      "on-scroll-down": "shift_down"
+    }
+  },
+  "custom/notification": {
+    "tooltip": true,
+    "format": "<span font-size='large'>{icon}</span>",
+    "format-icons": {
+      "notification": "",
+      "none": "",
+      "dnd-notification": "",
+      "dnd-none": ""
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-middle": "swaync-client -C",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  },
+  "custom/updates": {
+    "format": "<span font-size='large'>{}</span>",
+    "interval": 1800,
+    "exec": "$HOME/.config/waybar/scripts/checkupdates.sh 2> /dev/null",
+    "return-type": "json"
+  },
+  "custom/weather": {
+    "format": "{}",
+    "tooltip": true,
+    "interval": 1800,
+    "exec": "wttrbar --date-format '%A, %d %b %Y' --location Moscow --hide-conditions --custom-indicator '{ICON} {temp_C}'",
+    "return-type": "json"
+  },
+  "height": 25,
+  "hyprland/language": {
+    "format": "<span>{shortDescription}</span>",
+    "on-click": "hyprctl switchxkblayout current next",
+    "expand": true
+  },
+  "hyprland/submap": {
+    "format": "<span font-size='large' margin='0px 5px'></span>",
+    "max-length": 50
+  },
+  "hyprland/window": {
+    "separate-outputs": true
+  },
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "on-click": "activate",
+    "all-outputs": true,
+    "sort-by-number": true,
+    "format-icons": {
+      "1": "一",
+      "2": "二",
+      "3": "三",
+      "4": "四",
+      "5": "五",
+      "6": "六",
+      "7": "七",
+      "8": "八",
+      "9": "九",
+      "10": "十"
+    },
+    "persistent-workspaces": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": [],
+      "7": [],
+      "8": [],
+      "9": [],
+      "10": []
+    }
+  },
+  "modules-center": [
+    "hyprland/window",
+    "custom/weather"
+  ],
+  "modules-left": [
+    "hyprland/workspaces",
+    "custom/updates"
+  ],
+  "modules-right": [
+    "hyprland/submap",
+    "tray",
+    "clock",
+    "network",
+    "hyprland/language",
+    "custom/notification"
+  ],
+  "network": {
+    "format": "{ifname}",
+    "format-wifi": "{icon}",
+    "format-ethernet": "󰈁",
+    "format-disconnected": "✈",
+    "max-length": 50,
+    "interval": 1,
+    "format-icons": [
+      "󰤯",
+      "󰤟",
+      "󰤢",
+      "󰤥",
+      "󰤨"
+    ],
+    "tooltip-format": "{essid}:  {bandwidthDownBits}  {bandwidthUpBits}",
+    "tooltip-format-ethernet": "{ifname}:  {bandwidthDownBytes}  {bandwidthUpBytes}"
+  },
+  "output": [
+    "DP-3",
+    "HDMI-A-5"
+  ],
+  "temperature": {
+    "critical-threshold": 70,
+    "format-critical": "{temperatureC}°C {icon}",
+    "format": "",
+    "format-icons": [
+      "",
+      "",
+      ""
+    ]
+  },
+  "tray": {
+    "icon-size": 13,
+    "spacing": 10,
+    "reverse-direction": true
+  }
+}

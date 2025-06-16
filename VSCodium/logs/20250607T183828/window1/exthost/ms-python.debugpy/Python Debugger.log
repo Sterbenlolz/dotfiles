@@ -1,0 +1,16 @@
+2025-06-07 18:38:30.775 [error] sendDebugpySuccessActivationTelemetry() failed. Error: EACCES: permission denied, mkdir '/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints'
+    at Object.mkdirSync (node:fs:1372:26)
+    at t.registerNoConfigDebug (/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/dist/extension.js:2:849107)
+    at t.registerDebugger (/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/dist/extension.js:2:848115)
+    at e.activate (/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/dist/extension.js:2:1098056)
+    at Function._callActivateOptional (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:18703)
+    at Function._callActivate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:18372)
+    at file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:16306
+    at Nw._activate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:16269)
+    at Nw._waitForDepsThenActivate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:16211)
+    at Nw._initialize (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:15574) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'mkdir',
+  path: '/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints'
+}

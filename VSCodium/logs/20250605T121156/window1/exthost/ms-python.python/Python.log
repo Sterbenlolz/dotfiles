@@ -1,0 +1,296 @@
+2025-06-05 12:11:57.748 [info] Telemetry level is off
+2025-06-05 12:11:57.748 [info] Experiments are disabled, only manually opted experiments are active.
+2025-06-05 12:11:57.748 [warning] Dir "/home/sterben/projects/totalvideo_management/.pixi/envs" is not watchable (directory does not exist)
+2025-06-05 12:11:57.748 [warning] Dir "/home/sterben/projects/totalvideo_auth/.pixi/envs" is not watchable (directory does not exist)
+2025-06-05 12:11:57.748 [warning] Dir "/home/sterben/projects/totalvideo_cdn_manager/.pixi/envs" is not watchable (directory does not exist)
+2025-06-05 12:11:57.748 [warning] Dir "/home/sterben/projects/core-microservice/.pixi/envs" is not watchable (directory does not exist)
+2025-06-05 12:11:57.748 [warning] Dir "/home/sterben/projects/sqlalchemy-utils/.pixi/envs" is not watchable (directory does not exist)
+2025-06-05 12:11:57.748 [info] Python interpreter path: /bin/python
+2025-06-05 12:11:57.889 [info] > pyenv which python
+2025-06-05 12:11:57.889 [info] cwd: ~/projects/totalvideo_management
+2025-06-05 12:11:58.002 [info] Starting Pylance language server.
+2025-06-05 12:12:01.284 [info] Selected workspace /home/sterben/projects/totalvideo_management for creating virtual environment.
+2025-06-05 12:12:01.293 [info] Starting Environment refresh
+2025-06-05 12:12:01.294 [info] Searching for interpreters in posix paths locator
+2025-06-05 12:12:01.295 [info] Searching for pyenv environments
+2025-06-05 12:12:01.295 [info] Searching for conda environments
+2025-06-05 12:12:01.295 [info] Searching for global virtual environments
+2025-06-05 12:12:01.295 [info] Searching for custom virtual environments
+2025-06-05 12:12:01.303 [info] > conda info --json
+2025-06-05 12:12:01.341 [info] > hatch env show --json
+2025-06-05 12:12:01.341 [info] cwd: ~/projects/totalvideo_management
+2025-06-05 12:12:01.341 [info] > hatch env show --json
+2025-06-05 12:12:01.341 [info] cwd: ~/projects/totalvideo_auth
+2025-06-05 12:12:01.341 [info] > hatch env show --json
+2025-06-05 12:12:01.341 [info] cwd: ~/projects/totalvideo_cdn_manager
+2025-06-05 12:12:01.341 [info] > hatch env show --json
+2025-06-05 12:12:01.341 [info] cwd: ~/projects/core-microservice
+2025-06-05 12:12:01.341 [info] > hatch env show --json
+2025-06-05 12:12:01.341 [info] cwd: ~/projects/sqlalchemy-utils
+2025-06-05 12:12:01.349 [info] Finished searching for custom virtual envs: 53 milliseconds
+2025-06-05 12:12:01.350 [info] Finished searching for global virtual envs: 55 milliseconds
+2025-06-05 12:12:01.354 [info] Found: /bin/python --> /bin/python3.13
+2025-06-05 12:12:01.355 [info] Found: /bin/python3 --> /bin/python3.13
+2025-06-05 12:12:01.355 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-06-05 12:12:01.367 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.6.1-linux-x64/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.6.1-linux-x64/python_files/interpreterInfo.py
+2025-06-05 12:12:01.368 [info] Found: /sbin/python --> /sbin/python3.13
+2025-06-05 12:12:01.368 [info] Found: /sbin/python3 --> /sbin/python3.13
+2025-06-05 12:12:01.369 [info] Found: /sbin/python3.13 --> /sbin/python3.13
+2025-06-05 12:12:01.372 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-06-05 12:12:01.372 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-06-05 12:12:01.375 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.6.1-linux-x64/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.6.1-linux-x64/python_files/interpreterInfo.py
+2025-06-05 12:12:01.376 [info] Finished searching for pyenv environments: 82 milliseconds
+2025-06-05 12:12:01.376 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-06-05 12:12:01.387 [info] Found: /usr/sbin/python --> /usr/sbin/python3.13
+2025-06-05 12:12:01.387 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.13
+2025-06-05 12:12:01.387 [info] Found: /usr/sbin/python3.13 --> /usr/sbin/python3.13
+2025-06-05 12:12:01.391 [info] > ~/.pyenv/versions/3.12.10/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.6.1-linux-x64/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.6.1-linux-x64/python_files/interpreterInfo.py
+2025-06-05 12:12:01.394 [info] Finished searching for interpreters in posix paths locator: 101 milliseconds
+2025-06-05 12:12:01.399 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.6.1-linux-x64/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.6.1-linux-x64/python_files/interpreterInfo.py
+2025-06-05 12:12:01.399 [info] Environments refresh paths discovered (event): 106 milliseconds
+2025-06-05 12:12:01.399 [info] Environments refresh paths discovered: 106 milliseconds
+2025-06-05 12:12:01.416 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.6.1-linux-x64/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.6.1-linux-x64/python_files/interpreterInfo.py
+2025-06-05 12:12:01.434 [info] Environments refresh finished (event): 141 milliseconds
+2025-06-05 12:12:01.436 [info] Environment refresh took 144 milliseconds
+2025-06-05 12:12:03.474 [info] Selected interpreter /home/sterben/.pyenv/versions/3.12.10/bin/python for creating virtual environment.
+2025-06-05 12:12:05.971 [info] Running Env creation script:  [
+  '/home/sterben/.pyenv/versions/3.12.10/bin/python',
+  '/home/sterben/.vscode-oss/extensions/ms-python.python-2025.6.1-linux-x64/python_files/create_venv.py',
+  '--git-ignore',
+  '--requirements',
+  '/home/sterben/projects/totalvideo_management/requirements.txt'
+]
+2025-06-05 12:12:05.971 [info] > ~/.pyenv/versions/3.12.10/bin/python ~/.vscode-oss/extensions/ms-python.python-2025.6.1-linux-x64/python_files/create_venv.py --git-ignore --requirements ~/projects/totalvideo_management/requirements.txt
+2025-06-05 12:12:05.971 [info] cwd: ~/projects/totalvideo_management
+2025-06-05 12:12:06.023 [info] Running: /home/sterben/.pyenv/versions/3.12.10/bin/python -m venv .venv
+2025-06-05 12:12:07.151 [info] > ~/projects/totalvideo_management/.venv/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.6.1-linux-x64/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.6.1-linux-x64/python_files/interpreterInfo.py
+2025-06-05 12:12:07.151 [info] Environments refresh paths discovered: 25 milliseconds
+2025-06-05 12:12:07.174 [info] Environments refresh finished (event): 48 milliseconds
+2025-06-05 12:12:07.598 [info] CREATED_VENV:/home/sterben/projects/totalvideo_management/.venv/bin/python
+Creating: /home/sterben/projects/totalvideo_management/.venv/.gitignore
+2025-06-05 12:12:07.598 [info] CREATE_VENV.UPGRADING_PIP
+Running: /home/sterben/projects/totalvideo_management/.venv/bin/python -m pip install --upgrade pip
+2025-06-05 12:12:07.801 [info] Looking in indexes: https://pypi.org/simple, https://gitlab.totalvideo.ru/api/v4/groups/72/packages/pypi/simple
+2025-06-05 12:12:07.801 [info] Requirement already satisfied: pip in ./.venv/lib/python3.12/site-packages (25.0.1)
+2025-06-05 12:12:07.802 [info] ERROR: Could not install packages due to an OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /usr/share/ca-certificates/gitlab-totalvideo-ru.pem
+2025-06-05 12:12:07.807 [info] WARNING: There was an error checking the latest version of pip.
+2025-06-05 12:12:07.833 [info] Traceback (most recent call last):
+  File "/home/sterben/.vscode-oss/extensions/ms-python.python-2025.6.1-linux-x64/python_files/create_venv.py", line 96, in run_process
+2025-06-05 12:12:07.833 [info]     subprocess.run(args, cwd=os.getcwd(), check=True)  # noqa: PTH109
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sterben/.pyenv/versions/3.12.10/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/sterben/projects/totalvideo_management/.venv/bin/python', '-m', 'pip', 'install', '--upgrade', 'pip']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sterben/.vscode-oss/extensions/ms-python.python-2025.6.1-linux-x64/python_files/create_venv.py", line 262, in <module>
+2025-06-05 12:12:07.833 [info]     main(sys.argv[1:])
+  File "/home/sterben/.vscode-oss/extensions/ms-python.python-2025.6.1-linux-x64/python_files/create_venv.py", line 245, in main
+    upgrade_pip(venv_path)
+  File "/home/sterben/.vscode-oss/extensions/ms-python.python-2025.6.1-linux-x64/python_files/create_venv.py", line 134, in upgrade_pip
+    run_process(
+  File "/home/sterben/.vscode-oss/extensions/ms-python.python-2025.6.1-linux-x64/python_files/create_venv.py", line 98, in run_process
+    raise VenvError(error_message) from exc
+VenvError: CREATE_VENV.UPGRADE_PIP_FAILED
+2025-06-05 12:12:07.839 [error] Error while running venv creation script:  CREATE_VENV.UPGRADE_PIP_FAILED
+2025-06-05 12:12:07.839 [error] CREATE_VENV.UPGRADE_PIP_FAILED
+2025-06-05 12:14:24.025 [info] Selected workspace /home/sterben/projects/totalvideo_management for creating virtual environment.
+2025-06-05 12:14:25.278 [info] Selected interpreter /home/sterben/.pyenv/versions/3.12.10/bin/python for creating virtual environment.
+2025-06-05 12:14:27.250 [info] Running Env creation script:  [
+  '/home/sterben/.pyenv/versions/3.12.10/bin/python',
+  '/home/sterben/.vscode-oss/extensions/ms-python.python-2025.6.1-linux-x64/python_files/create_venv.py',
+  '--git-ignore',
+  '--requirements',
+  '/home/sterben/projects/totalvideo_management/requirements.txt'
+]
+2025-06-05 12:14:27.250 [info] > ~/.pyenv/versions/3.12.10/bin/python ~/.vscode-oss/extensions/ms-python.python-2025.6.1-linux-x64/python_files/create_venv.py --git-ignore --requirements ~/projects/totalvideo_management/requirements.txt
+2025-06-05 12:14:27.250 [info] cwd: ~/projects/totalvideo_management
+2025-06-05 12:14:27.292 [info] Running: /home/sterben/.pyenv/versions/3.12.10/bin/python -m venv .venv
+2025-06-05 12:14:28.433 [info] > ~/projects/totalvideo_management/.venv/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.6.1-linux-x64/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.6.1-linux-x64/python_files/interpreterInfo.py
+2025-06-05 12:14:28.433 [info] Environments refresh paths discovered: 26 milliseconds
+2025-06-05 12:14:28.456 [info] Environments refresh finished (event): 49 milliseconds
+2025-06-05 12:14:28.910 [info] CREATED_VENV:/home/sterben/projects/totalvideo_management/.venv/bin/python
+Creating: /home/sterben/projects/totalvideo_management/.venv/.gitignore
+2025-06-05 12:14:28.910 [info] CREATE_VENV.UPGRADING_PIP
+Running: /home/sterben/projects/totalvideo_management/.venv/bin/python -m pip install --upgrade pip
+2025-06-05 12:14:29.120 [info] Looking in indexes: https://pypi.org/simple, https://gitlab.totalvideo.ru/api/v4/groups/72/packages/pypi/simple
+2025-06-05 12:14:29.120 [info] Requirement already satisfied: pip in ./.venv/lib/python3.12/site-packages (25.0.1)
+2025-06-05 12:14:29.405 [info] Collecting pip
+2025-06-05 12:14:29.408 [info]   Using cached pip-25.1.1-py3-none-any.whl.metadata (3.6 kB)
+2025-06-05 12:14:29.413 [info] Using cached pip-25.1.1-py3-none-any.whl (1.8 MB)
+2025-06-05 12:14:29.422 [info] Installing collected packages: pip
+2025-06-05 12:14:29.423 [info]   Attempting uninstall: pip
+2025-06-05 12:14:29.424 [info]     Found existing installation: pip 25.0.1
+2025-06-05 12:14:29.440 [info]     Uninstalling pip-25.0.1:
+2025-06-05 12:14:29.444 [info]       Successfully uninstalled pip-25.0.1
+2025-06-05 12:14:30.048 [info] Successfully installed pip-25.1.1
+2025-06-05 12:14:30.086 [info] CREATE_VENV.UPGRADED_PIP
+VENV_INSTALLING_REQUIREMENTS: ['/home/sterben/projects/totalvideo_management/requirements.txt']
+VENV_INSTALLING_REQUIREMENTS: /home/sterben/projects/totalvideo_management/requirements.txt
+Running: /home/sterben/projects/totalvideo_management/.venv/bin/python -m pip install -r /home/sterben/projects/totalvideo_management/requirements.txt
+2025-06-05 12:14:30.288 [info] Looking in indexes: https://pypi.org/simple, https://gitlab.totalvideo.ru/api/v4/groups/72/packages/pypi/simple
+2025-06-05 12:14:30.288 [info] Collecting core_microservice@ git+ssh://****@gitlab.totalvideo.ru/backend-microservices/core_microservice.git (from -r /home/sterben/projects/totalvideo_management/requirements.txt (line 16))
+2025-06-05 12:14:30.288 [info]   Cloning ssh://****@gitlab.totalvideo.ru/backend-microservices/core_microservice.git to /tmp/pip-install-rmq7gpm_/core-microservice_53e0eb32d97941da90bc1538e39cbe22
+2025-06-05 12:14:30.290 [info]   Running command git clone --filter=blob:none --quiet 'ssh://****@gitlab.totalvideo.ru/backend-microservices/core_microservice.git' /tmp/pip-install-rmq7gpm_/core-microservice_53e0eb32d97941da90bc1538e39cbe22
+2025-06-05 12:14:31.905 [info]   Resolved ssh://****@gitlab.totalvideo.ru/backend-microservices/core_microservice.git to commit 058467519585a77f3601646f40323ae6f1848ccf
+2025-06-05 12:14:31.915 [info]   Installing build dependencies: started
+2025-06-05 12:14:33.453 [info]   Installing build dependencies: finished with status 'done'
+2025-06-05 12:14:33.453 [info]   Getting requirements to build wheel: started
+2025-06-05 12:14:33.748 [info]   Getting requirements to build wheel: finished with status 'done'
+2025-06-05 12:14:33.749 [info]   Preparing metadata (pyproject.toml): started
+2025-06-05 12:14:33.867 [info]   Preparing metadata (pyproject.toml): finished with status 'done'
+2025-06-05 12:14:33.868 [info] Collecting sqlalchemy_utils@ git+ssh://****@gitlab.totalvideo.ru/backend-microservices/sqlalchemy_utils.git (from -r /home/sterben/projects/totalvideo_management/requirements.txt (line 17))
+2025-06-05 12:14:33.868 [info]   Cloning ssh://****@gitlab.totalvideo.ru/backend-microservices/sqlalchemy_utils.git to /tmp/pip-install-rmq7gpm_/sqlalchemy-utils_9164a75360394dafa2a79816ddd6c81e
+2025-06-05 12:14:33.870 [info]   Running command git clone --filter=blob:none --quiet 'ssh://****@gitlab.totalvideo.ru/backend-microservices/sqlalchemy_utils.git' /tmp/pip-install-rmq7gpm_/sqlalchemy-utils_9164a75360394dafa2a79816ddd6c81e
+2025-06-05 12:14:35.270 [info]   Resolved ssh://****@gitlab.totalvideo.ru/backend-microservices/sqlalchemy_utils.git to commit b643c80f77087d8c9921de0aae9b366887301abf
+2025-06-05 12:14:35.282 [info]   Installing build dependencies: started
+2025-06-05 12:14:36.054 [info]   Installing build dependencies: finished with status 'done'
+2025-06-05 12:14:36.054 [info]   Getting requirements to build wheel: started
+2025-06-05 12:14:36.338 [info]   Getting requirements to build wheel: finished with status 'done'
+2025-06-05 12:14:36.338 [info]   Preparing metadata (pyproject.toml): started
+2025-06-05 12:14:36.459 [info]   Preparing metadata (pyproject.toml): finished with status 'done'
+2025-06-05 12:14:36.766 [info] Collecting alembic>=1.13.1 (from -r /home/sterben/projects/totalvideo_management/requirements.txt (line 1))
+2025-06-05 12:14:36.912 [info]   Downloading alembic-1.16.1-py3-none-any.whl.metadata (7.3 kB)
+2025-06-05 12:14:37.054 [info] Collecting alembic-postgresql-enum>=1.2.0 (from -r /home/sterben/projects/totalvideo_management/requirements.txt (line 2))
+2025-06-05 12:14:37.102 [info]   Downloading alembic_postgresql_enum-1.7.0-py3-none-any.whl.metadata (12 kB)
+2025-06-05 12:14:37.299 [info] Collecting asyncpg>=0.29.0 (from -r /home/sterben/projects/totalvideo_management/requirements.txt (line 3))
+2025-06-05 12:14:37.343 [info]   Downloading asyncpg-0.30.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.0 kB)
+2025-06-05 12:14:37.448 [info] Collecting email_validator>=2.1.1 (from -r /home/sterben/projects/totalvideo_management/requirements.txt (line 4))
+2025-06-05 12:14:37.493 [info]   Downloading email_validator-2.2.0-py3-none-any.whl.metadata (25 kB)
+2025-06-05 12:14:37.656 [info] Collecting fastapi>=0.111.0 (from -r /home/sterben/projects/totalvideo_management/requirements.txt (line 5))
+2025-06-05 12:14:37.700 [info]   Downloading fastapi-0.115.12-py3-none-any.whl.metadata (27 kB)
+2025-06-05 12:14:37.848 [info] Collecting httpx>=0.27.0 (from -r /home/sterben/projects/totalvideo_management/requirements.txt (line 6))
+2025-06-05 12:14:37.890 [info]   Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+2025-06-05 12:14:38.127 [info] Collecting pydantic>=2.7.1 (from -r /home/sterben/projects/totalvideo_management/requirements.txt (line 7))
+2025-06-05 12:14:38.171 [info]   Downloading pydantic-2.11.5-py3-none-any.whl.metadata (67 kB)
+2025-06-05 12:14:38.353 [info] Collecting pydantic-settings>=2.2.1 (from pydantic-settings[yaml]>=2.2.1->-r /home/sterben/projects/totalvideo_management/requirements.txt (line 8))
+2025-06-05 12:14:38.398 [info]   Downloading pydantic_settings-2.9.1-py3-none-any.whl.metadata (3.8 kB)
+2025-06-05 12:14:38.543 [info] Collecting pytest>=8.2.0 (from -r /home/sterben/projects/totalvideo_management/requirements.txt (line 9))
+2025-06-05 12:14:38.586 [info]   Downloading pytest-8.4.0-py3-none-any.whl.metadata (7.7 kB)
+2025-06-05 12:14:38.731 [info] Collecting pytest-asyncio>=0.23.6 (from -r /home/sterben/projects/totalvideo_management/requirements.txt (line 10))
+2025-06-05 12:14:38.778 [info]   Downloading pytest_asyncio-1.0.0-py3-none-any.whl.metadata (4.0 kB)
+2025-06-05 12:14:38.925 [info] Collecting redis==5.2.1 (from -r /home/sterben/projects/totalvideo_management/requirements.txt (line 11))
+2025-06-05 12:14:38.970 [info]   Downloading redis-5.2.1-py3-none-any.whl.metadata (9.1 kB)
+2025-06-05 12:14:39.276 [info] Collecting SQLAlchemy>=2.0.30 (from -r /home/sterben/projects/totalvideo_management/requirements.txt (line 12))
+2025-06-05 12:14:39.320 [info]   Downloading sqlalchemy-2.0.41-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.6 kB)
+2025-06-05 12:14:39.532 [info] Collecting uvicorn>=0.29.0 (from -r /home/sterben/projects/totalvideo_management/requirements.txt (line 13))
+2025-06-05 12:14:39.576 [info]   Downloading uvicorn-0.34.3-py3-none-any.whl.metadata (6.5 kB)
+2025-06-05 12:14:39.749 [info] Collecting jellyfish>=1.2.0 (from -r /home/sterben/projects/totalvideo_management/requirements.txt (line 14))
+2025-06-05 12:14:39.795 [info]   Downloading jellyfish-1.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.6 kB)
+2025-06-05 12:14:39.914 [info] Collecting python-multipart>=0.0.20 (from -r /home/sterben/projects/totalvideo_management/requirements.txt (line 15))
+2025-06-05 12:14:39.960 [info]   Downloading python_multipart-0.0.20-py3-none-any.whl.metadata (1.8 kB)
+2025-06-05 12:14:40.100 [info] Collecting Mako (from alembic>=1.13.1->-r /home/sterben/projects/totalvideo_management/requirements.txt (line 1))
+2025-06-05 12:14:40.145 [info]   Downloading mako-1.3.10-py3-none-any.whl.metadata (2.9 kB)
+2025-06-05 12:14:40.280 [info] Collecting typing-extensions>=4.12 (from alembic>=1.13.1->-r /home/sterben/projects/totalvideo_management/requirements.txt (line 1))
+2025-06-05 12:14:40.325 [info]   Downloading typing_extensions-4.14.0-py3-none-any.whl.metadata (3.0 kB)
+2025-06-05 12:14:40.446 [info] Collecting dnspython>=2.0.0 (from email_validator>=2.1.1->-r /home/sterben/projects/totalvideo_management/requirements.txt (line 4))
+2025-06-05 12:14:40.489 [info]   Downloading dnspython-2.7.0-py3-none-any.whl.metadata (5.8 kB)
+2025-06-05 12:14:40.627 [info] Collecting idna>=2.0.0 (from email_validator>=2.1.1->-r /home/sterben/projects/totalvideo_management/requirements.txt (line 4))
+2025-06-05 12:14:40.672 [info]   Downloading idna-3.10-py3-none-any.whl.metadata (10 kB)
+2025-06-05 12:14:40.813 [info] Collecting starlette<0.47.0,>=0.40.0 (from fastapi>=0.111.0->-r /home/sterben/projects/totalvideo_management/requirements.txt (line 5))
+2025-06-05 12:14:40.859 [info]   Downloading starlette-0.46.2-py3-none-any.whl.metadata (6.2 kB)
+2025-06-05 12:14:40.997 [info] Collecting annotated-types>=0.6.0 (from pydantic>=2.7.1->-r /home/sterben/projects/totalvideo_management/requirements.txt (line 7))
+2025-06-05 12:14:41.042 [info]   Downloading annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+2025-06-05 12:14:41.489 [info] Collecting pydantic-core==2.33.2 (from pydantic>=2.7.1->-r /home/sterben/projects/totalvideo_management/requirements.txt (line 7))
+2025-06-05 12:14:41.533 [info]   Downloading pydantic_core-2.33.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.8 kB)
+2025-06-05 12:14:41.660 [info] Collecting typing-inspection>=0.4.0 (from pydantic>=2.7.1->-r /home/sterben/projects/totalvideo_management/requirements.txt (line 7))
+2025-06-05 12:14:41.705 [info]   Downloading typing_inspection-0.4.1-py3-none-any.whl.metadata (2.6 kB)
+2025-06-05 12:14:41.870 [info] Collecting anyio<5,>=3.6.2 (from starlette<0.47.0,>=0.40.0->fastapi>=0.111.0->-r /home/sterben/projects/totalvideo_management/requirements.txt (line 5))
+2025-06-05 12:14:41.915 [info]   Downloading anyio-4.9.0-py3-none-any.whl.metadata (4.7 kB)
+2025-06-05 12:14:42.046 [info] Collecting sniffio>=1.1 (from anyio<5,>=3.6.2->starlette<0.47.0,>=0.40.0->fastapi>=0.111.0->-r /home/sterben/projects/totalvideo_management/requirements.txt (line 5))
+2025-06-05 12:14:42.091 [info]   Downloading sniffio-1.3.1-py3-none-any.whl.metadata (3.9 kB)
+2025-06-05 12:14:42.242 [info] Collecting certifi (from httpx>=0.27.0->-r /home/sterben/projects/totalvideo_management/requirements.txt (line 6))
+2025-06-05 12:14:42.287 [info]   Downloading certifi-2025.4.26-py3-none-any.whl.metadata (2.5 kB)
+2025-06-05 12:14:42.423 [info] Collecting httpcore==1.* (from httpx>=0.27.0->-r /home/sterben/projects/totalvideo_management/requirements.txt (line 6))
+2025-06-05 12:14:42.467 [info]   Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+2025-06-05 12:14:42.593 [info] Collecting h11>=0.16 (from httpcore==1.*->httpx>=0.27.0->-r /home/sterben/projects/totalvideo_management/requirements.txt (line 6))
+2025-06-05 12:14:42.639 [info]   Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+2025-06-05 12:14:42.784 [info] Collecting python-dotenv>=0.21.0 (from pydantic-settings>=2.2.1->pydantic-settings[yaml]>=2.2.1->-r /home/sterben/projects/totalvideo_management/requirements.txt (line 8))
+2025-06-05 12:14:42.830 [info]   Downloading python_dotenv-1.1.0-py3-none-any.whl.metadata (24 kB)
+2025-06-05 12:14:42.952 [info] Collecting iniconfig>=1 (from pytest>=8.2.0->-r /home/sterben/projects/totalvideo_management/requirements.txt (line 9))
+2025-06-05 12:14:42.997 [info]   Downloading iniconfig-2.1.0-py3-none-any.whl.metadata (2.7 kB)
+2025-06-05 12:14:43.133 [info] Collecting packaging>=20 (from pytest>=8.2.0->-r /home/sterben/projects/totalvideo_management/requirements.txt (line 9))
+2025-06-05 12:14:43.177 [info]   Downloading packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
+2025-06-05 12:14:43.307 [info] Collecting pluggy<2,>=1.5 (from pytest>=8.2.0->-r /home/sterben/projects/totalvideo_management/requirements.txt (line 9))
+2025-06-05 12:14:43.352 [info]   Downloading pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+2025-06-05 12:14:43.492 [info] Collecting pygments>=2.7.2 (from pytest>=8.2.0->-r /home/sterben/projects/totalvideo_management/requirements.txt (line 9))
+2025-06-05 12:14:43.536 [info]   Downloading pygments-2.19.1-py3-none-any.whl.metadata (2.5 kB)
+2025-06-05 12:14:43.749 [info] Collecting greenlet>=1 (from SQLAlchemy>=2.0.30->-r /home/sterben/projects/totalvideo_management/requirements.txt (line 12))
+2025-06-05 12:14:43.793 [info]   Downloading greenlet-3.2.2-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (4.1 kB)
+2025-06-05 12:14:43.937 [info] Collecting click>=7.0 (from uvicorn>=0.29.0->-r /home/sterben/projects/totalvideo_management/requirements.txt (line 13))
+2025-06-05 12:14:43.981 [info]   Downloading click-8.2.1-py3-none-any.whl.metadata (2.5 kB)
+2025-06-05 12:14:44.143 [info] Collecting pyyaml>=6.0.1 (from pydantic-settings[yaml]>=2.2.1->-r /home/sterben/projects/totalvideo_management/requirements.txt (line 8))
+2025-06-05 12:14:44.188 [info]   Downloading PyYAML-6.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.1 kB)
+2025-06-05 12:14:44.346 [info] Collecting MarkupSafe>=0.9.2 (from Mako->alembic>=1.13.1->-r /home/sterben/projects/totalvideo_management/requirements.txt (line 1))
+2025-06-05 12:14:44.390 [info]   Downloading MarkupSafe-3.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.0 kB)
+2025-06-05 12:14:44.455 [info] Downloading redis-5.2.1-py3-none-any.whl (261 kB)
+2025-06-05 12:14:44.565 [info] Downloading alembic-1.16.1-py3-none-any.whl (242 kB)
+2025-06-05 12:14:44.633 [info] Downloading alembic_postgresql_enum-1.7.0-py3-none-any.whl (23 kB)
+2025-06-05 12:14:44.692 [info] Downloading asyncpg-0.30.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.6 MB)
+2025-06-05 12:14:44.831 [info]    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 26.3 MB/s eta 0:00:00
+2025-06-05 12:14:44.874 [info] Downloading email_validator-2.2.0-py3-none-any.whl (33 kB)
+2025-06-05 12:14:44.928 [info] Downloading fastapi-0.115.12-py3-none-any.whl (95 kB)
+2025-06-05 12:14:44.984 [info] Downloading pydantic-2.11.5-py3-none-any.whl (444 kB)
+2025-06-05 12:14:45.046 [info] Downloading pydantic_core-2.33.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.0 MB)
+2025-06-05 12:14:45.075 [info]    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 71.0 MB/s eta 0:00:00
+2025-06-05 12:14:45.076 [info] 
+2025-06-05 12:14:45.122 [info] Downloading starlette-0.46.2-py3-none-any.whl (72 kB)
+2025-06-05 12:14:45.177 [info] Downloading anyio-4.9.0-py3-none-any.whl (100 kB)
+2025-06-05 12:14:45.233 [info] Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+2025-06-05 12:14:45.289 [info] Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+2025-06-05 12:14:45.345 [info] Downloading pydantic_settings-2.9.1-py3-none-any.whl (44 kB)
+2025-06-05 12:14:45.400 [info] Downloading pytest-8.4.0-py3-none-any.whl (363 kB)
+2025-06-05 12:14:45.458 [info] Downloading pluggy-1.6.0-py3-none-any.whl (20 kB)
+2025-06-05 12:14:45.515 [info] Downloading pytest_asyncio-1.0.0-py3-none-any.whl (15 kB)
+2025-06-05 12:14:45.571 [info] Downloading sqlalchemy-2.0.41-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+2025-06-05 12:14:45.695 [info]    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 26.5 MB/s eta 0:00:00
+2025-06-05 12:14:45.695 [info] 
+2025-06-05 12:14:45.740 [info] Downloading uvicorn-0.34.3-py3-none-any.whl (62 kB)
+2025-06-05 12:14:45.795 [info] Downloading jellyfish-1.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (355 kB)
+2025-06-05 12:14:45.853 [info] Downloading python_multipart-0.0.20-py3-none-any.whl (24 kB)
+2025-06-05 12:14:45.908 [info] Downloading annotated_types-0.7.0-py3-none-any.whl (13 kB)
+2025-06-05 12:14:45.964 [info] Downloading click-8.2.1-py3-none-any.whl (102 kB)
+2025-06-05 12:14:46.020 [info] Downloading dnspython-2.7.0-py3-none-any.whl (313 kB)
+2025-06-05 12:14:46.080 [info] Downloading greenlet-3.2.2-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (603 kB)
+2025-06-05 12:14:46.100 [info]    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 603.9/603.9 kB 27.8 MB/s eta 0:00:00
+2025-06-05 12:14:46.100 [info] 
+2025-06-05 12:14:46.145 [info] Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+2025-06-05 12:14:46.201 [info] Downloading idna-3.10-py3-none-any.whl (70 kB)
+2025-06-05 12:14:46.257 [info] Downloading iniconfig-2.1.0-py3-none-any.whl (6.0 kB)
+2025-06-05 12:14:46.314 [info] Downloading packaging-25.0-py3-none-any.whl (66 kB)
+2025-06-05 12:14:46.371 [info] Downloading pygments-2.19.1-py3-none-any.whl (1.2 MB)
+2025-06-05 12:14:46.393 [info]    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 59.4 MB/s eta 0:00:00
+2025-06-05 12:14:46.394 [info] 
+2025-06-05 12:14:46.440 [info] Downloading python_dotenv-1.1.0-py3-none-any.whl (20 kB)
+2025-06-05 12:14:46.497 [info] Downloading PyYAML-6.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (767 kB)
+2025-06-05 12:14:46.517 [info]    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 767.5/767.5 kB 36.7 MB/s eta 0:00:00
+2025-06-05 12:14:46.517 [info] 
+2025-06-05 12:14:46.562 [info] Downloading sniffio-1.3.1-py3-none-any.whl (10 kB)
+2025-06-05 12:14:46.617 [info] Downloading typing_extensions-4.14.0-py3-none-any.whl (43 kB)
+2025-06-05 12:14:46.669 [info] Downloading typing_inspection-0.4.1-py3-none-any.whl (14 kB)
+2025-06-05 12:14:46.719 [info] Downloading certifi-2025.4.26-py3-none-any.whl (159 kB)
+2025-06-05 12:14:46.773 [info] Downloading mako-1.3.10-py3-none-any.whl (78 kB)
+2025-06-05 12:14:46.830 [info] Downloading MarkupSafe-3.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (23 kB)
+2025-06-05 12:14:46.882 [info] Building wheels for collected packages: core_microservice, sqlalchemy_utils
+2025-06-05 12:14:46.883 [info]   Building wheel for core_microservice (pyproject.toml): started
+2025-06-05 12:14:47.010 [info]   Building wheel for core_microservice (pyproject.toml): finished with status 'done'
+2025-06-05 12:14:47.010 [info]   Created wheel for core_microservice: filename=core_microservice-0.1.7-py3-none-any.whl size=8099 sha256=fdd34ca36e80203b5cc8ecc12a245575abff40b14cfee6c4a1f17308f725591b
+2025-06-05 12:14:47.011 [info]   Stored in directory: /tmp/pip-ephem-wheel-cache-gkh2hoak/wheels/2b/f8/90/5227f39f64c842540196b19794efee99c5e6709d0a599cfacf
+2025-06-05 12:14:47.012 [info]   Building wheel for sqlalchemy_utils (pyproject.toml): started
+2025-06-05 12:14:47.140 [info]   Building wheel for sqlalchemy_utils (pyproject.toml): finished with status 'done'
+2025-06-05 12:14:47.140 [info]   Created wheel for sqlalchemy_utils: filename=sqlalchemy_utils-0.1.3-py3-none-any.whl size=4301 sha256=21e14260d5b4e69160a18b5358b5dcfe84a647f62bfef5c793bc36d4a84ad249
+  Stored in directory: /tmp/pip-ephem-wheel-cache-gkh2hoak/wheels/d0/e3/4f/ad56b7fe488c36f9340767f927580de76cde7c02995580e292
+2025-06-05 12:14:47.141 [info] Successfully built core_microservice sqlalchemy_utils
+2025-06-05 12:14:47.195 [info] Installing collected packages: typing-extensions, sniffio, redis, pyyaml, python-multipart, python-dotenv, pygments, pluggy, packaging, MarkupSafe, jellyfish, iniconfig, idna, h11, greenlet, dnspython, click, certifi, asyncpg, annotated-types, uvicorn, typing-inspection, SQLAlchemy, pytest, pydantic-core, Mako, httpcore, email_validator, anyio, starlette, pytest-asyncio, pydantic, httpx, alembic, sqlalchemy_utils, pydantic-settings, fastapi, alembic-postgresql-enum, core_microservice
+2025-06-05 12:14:50.059 [info] 
+2025-06-05 12:14:50.062 [info] Successfully installed Mako-1.3.10 MarkupSafe-3.0.2 SQLAlchemy-2.0.41 alembic-1.16.1 alembic-postgresql-enum-1.7.0 annotated-types-0.7.0 anyio-4.9.0 asyncpg-0.30.0 certifi-2025.4.26 click-8.2.1 core_microservice-0.1.7 dnspython-2.7.0 email_validator-2.2.0 fastapi-0.115.12 greenlet-3.2.2 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-3.10 iniconfig-2.1.0 jellyfish-1.2.0 packaging-25.0 pluggy-1.6.0 pydantic-2.11.5 pydantic-core-2.33.2 pydantic-settings-2.9.1 pygments-2.19.1 pytest-8.4.0 pytest-asyncio-1.0.0 python-dotenv-1.1.0 python-multipart-0.0.20 pyyaml-6.0.2 redis-5.2.1 sniffio-1.3.1 sqlalchemy_utils-0.1.3 starlette-0.46.2 typing-extensions-4.14.0 typing-inspection-0.4.1 uvicorn-0.34.3
+2025-06-05 12:14:50.266 [info] CREATE_VENV.PIP_INSTALLED_REQUIREMENTS
+2025-06-05 12:14:50.283 [info] Active interpreter [/home/sterben/projects/totalvideo_management]:  /home/sterben/projects/totalvideo_management/.venv/bin/python
+2025-06-05 12:14:50.285 [info] Discover tests for workspace name: totalvideo_auth - uri: /home/sterben/projects/totalvideo_auth
+2025-06-05 12:14:50.285 [info] Discover tests for workspace name: totalvideo_cdn_manager - uri: /home/sterben/projects/totalvideo_cdn_manager
+2025-06-05 12:14:50.285 [info] Discover tests for workspace name: core-microservice - uri: /home/sterben/projects/core-microservice
+2025-06-05 12:14:50.285 [info] Discover tests for workspace name: sqlalchemy-utils - uri: /home/sterben/projects/sqlalchemy-utils
+2025-06-05 12:14:50.285 [info] Discover tests for workspace name: totalvideo_management - uri: /home/sterben/projects/totalvideo_management
+2025-06-05 12:14:50.285 [info] Python interpreter path: ~/projects/totalvideo_management/.venv/bin/python

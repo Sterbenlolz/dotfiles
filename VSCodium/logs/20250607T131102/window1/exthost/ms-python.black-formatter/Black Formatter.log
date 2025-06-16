@@ -1,0 +1,206 @@
+2025-06-07 13:11:04.812 [info] Name: Black Formatter
+2025-06-07 13:11:04.812 [info] Module: black
+2025-06-07 13:11:04.812 [info] Default formatter is set to ms-python.black-formatter for workspace /home/sterben/projects/totalvideo_management
+2025-06-07 13:11:04.812 [info] Default formatter is set to ms-python.black-formatter for workspace /home/sterben/projects/totalvideo_auth
+2025-06-07 13:11:04.812 [info] Default formatter is set to ms-python.black-formatter for workspace /home/sterben/projects/totalvideo_cdn_manager
+2025-06-07 13:11:04.812 [info] Default formatter is set to ms-python.black-formatter for workspace /home/sterben/projects/core-microservice
+2025-06-07 13:11:04.812 [info] Default formatter is set to ms-python.black-formatter for workspace /home/sterben/projects/sqlalchemy-utils
+2025-06-07 13:11:04.812 [info] Python extension loading
+2025-06-07 13:11:04.812 [info] Waiting for interpreter from Python extension.
+2025-06-07 13:11:04.812 [info] Python extension loaded
+2025-06-07 13:11:04.812 [info] No interpreter found from setting black-formatter.interpreter
+2025-06-07 13:11:04.812 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/totalvideo_auth
+2025-06-07 13:11:04.812 [info] Interpreter from ms-python.python extension for /home/sterben/projects/totalvideo_auth: /usr/bin/python
+2025-06-07 13:11:04.812 [info] Workspace settings for /home/sterben/projects/totalvideo_auth (client side): {
+    "cwd": "/home/sterben/projects/totalvideo_auth",
+    "workspace": "file:///home/sterben/projects/totalvideo_auth",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/usr/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-06-07 13:11:04.812 [info] No interpreter found from setting black-formatter.interpreter
+2025-06-07 13:11:04.812 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/totalvideo_management
+2025-06-07 13:11:04.812 [info] No interpreter found from setting black-formatter.interpreter
+2025-06-07 13:11:04.812 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/totalvideo_auth
+2025-06-07 13:11:04.812 [info] No interpreter found from setting black-formatter.interpreter
+2025-06-07 13:11:04.812 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/totalvideo_cdn_manager
+2025-06-07 13:11:04.812 [info] No interpreter found from setting black-formatter.interpreter
+2025-06-07 13:11:04.812 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/core-microservice
+2025-06-07 13:11:04.812 [info] No interpreter found from setting black-formatter.interpreter
+2025-06-07 13:11:04.812 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/sqlalchemy-utils
+2025-06-07 13:11:04.812 [info] Interpreter from ms-python.python extension for /home/sterben/projects/totalvideo_management: /home/sterben/projects/totalvideo_management/.venv/bin/python
+2025-06-07 13:11:04.812 [info] Workspace settings for /home/sterben/projects/totalvideo_management (client side): {
+    "cwd": "/home/sterben/projects/totalvideo_management",
+    "workspace": "file:///home/sterben/projects/totalvideo_management",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/home/sterben/projects/totalvideo_management/.venv/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-06-07 13:11:04.812 [info] Interpreter from ms-python.python extension for /home/sterben/projects/totalvideo_auth: /usr/bin/python
+2025-06-07 13:11:04.812 [info] Workspace settings for /home/sterben/projects/totalvideo_auth (client side): {
+    "cwd": "/home/sterben/projects/totalvideo_auth",
+    "workspace": "file:///home/sterben/projects/totalvideo_auth",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/usr/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-06-07 13:11:04.812 [info] Interpreter from ms-python.python extension for /home/sterben/projects/totalvideo_cdn_manager: /usr/bin/python
+2025-06-07 13:11:04.812 [info] Workspace settings for /home/sterben/projects/totalvideo_cdn_manager (client side): {
+    "cwd": "/home/sterben/projects/totalvideo_cdn_manager",
+    "workspace": "file:///home/sterben/projects/totalvideo_cdn_manager",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/usr/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-06-07 13:11:04.812 [info] Interpreter from ms-python.python extension for /home/sterben/projects/core-microservice: /bin/python
+2025-06-07 13:11:04.812 [info] Workspace settings for /home/sterben/projects/core-microservice (client side): {
+    "cwd": "/home/sterben/projects/core-microservice",
+    "workspace": "file:///home/sterben/projects/core-microservice",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-06-07 13:11:04.812 [info] Interpreter from ms-python.python extension for /home/sterben/projects/sqlalchemy-utils: /usr/bin/python
+2025-06-07 13:11:04.812 [info] Workspace settings for /home/sterben/projects/sqlalchemy-utils (client side): {
+    "cwd": "/home/sterben/projects/sqlalchemy-utils",
+    "workspace": "file:///home/sterben/projects/sqlalchemy-utils",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/usr/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-06-07 13:11:04.812 [info] Global settings (client side): {
+    "cwd": "/home/sterben",
+    "workspace": "/home/sterben",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-06-07 13:11:50.173 [info] Name: Black Formatter
+2025-06-07 13:11:50.173 [info] Module: black
+2025-06-07 13:11:50.173 [info] Default formatter is set to ms-python.black-formatter for workspace /home/sterben/projects/totalvideo_management
+2025-06-07 13:11:50.173 [info] Default formatter is set to ms-python.black-formatter for workspace /home/sterben/projects/totalvideo_auth
+2025-06-07 13:11:50.173 [info] Default formatter is set to ms-python.black-formatter for workspace /home/sterben/projects/totalvideo_cdn_manager
+2025-06-07 13:11:50.173 [info] Default formatter is set to ms-python.black-formatter for workspace /home/sterben/projects/core-microservice
+2025-06-07 13:11:50.173 [info] Default formatter is set to ms-python.black-formatter for workspace /home/sterben/projects/sqlalchemy-utils
+2025-06-07 13:11:50.173 [info] Python extension loading
+2025-06-07 13:11:50.173 [info] Waiting for interpreter from Python extension.
+2025-06-07 13:11:50.173 [info] Python extension loaded
+2025-06-07 13:11:50.181 [info] No interpreter found from setting black-formatter.interpreter
+2025-06-07 13:11:50.181 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/totalvideo_auth
+2025-06-07 13:11:50.183 [info] Interpreter from ms-python.python extension for /home/sterben/projects/totalvideo_auth: /usr/bin/python
+2025-06-07 13:11:50.183 [info] Workspace settings for /home/sterben/projects/totalvideo_auth (client side): {
+    "cwd": "/home/sterben/projects/totalvideo_auth",
+    "workspace": "file:///home/sterben/projects/totalvideo_auth",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/usr/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-06-07 13:11:50.183 [info] No interpreter found from setting black-formatter.interpreter
+2025-06-07 13:11:50.183 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/totalvideo_management
+2025-06-07 13:11:50.183 [info] No interpreter found from setting black-formatter.interpreter
+2025-06-07 13:11:50.184 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/totalvideo_auth
+2025-06-07 13:11:50.184 [info] No interpreter found from setting black-formatter.interpreter
+2025-06-07 13:11:50.184 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/totalvideo_cdn_manager
+2025-06-07 13:11:50.184 [info] No interpreter found from setting black-formatter.interpreter
+2025-06-07 13:11:50.184 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/core-microservice
+2025-06-07 13:11:50.185 [info] No interpreter found from setting black-formatter.interpreter
+2025-06-07 13:11:50.185 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/sqlalchemy-utils
+2025-06-07 13:11:50.186 [info] Interpreter from ms-python.python extension for /home/sterben/projects/totalvideo_management: /home/sterben/projects/totalvideo_management/.venv/bin/python
+2025-06-07 13:11:50.186 [info] Workspace settings for /home/sterben/projects/totalvideo_management (client side): {
+    "cwd": "/home/sterben/projects/totalvideo_management",
+    "workspace": "file:///home/sterben/projects/totalvideo_management",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/home/sterben/projects/totalvideo_management/.venv/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-06-07 13:11:50.186 [info] Interpreter from ms-python.python extension for /home/sterben/projects/totalvideo_auth: /usr/bin/python
+2025-06-07 13:11:50.186 [info] Workspace settings for /home/sterben/projects/totalvideo_auth (client side): {
+    "cwd": "/home/sterben/projects/totalvideo_auth",
+    "workspace": "file:///home/sterben/projects/totalvideo_auth",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/usr/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-06-07 13:11:50.186 [info] Interpreter from ms-python.python extension for /home/sterben/projects/totalvideo_cdn_manager: /usr/bin/python
+2025-06-07 13:11:50.186 [info] Workspace settings for /home/sterben/projects/totalvideo_cdn_manager (client side): {
+    "cwd": "/home/sterben/projects/totalvideo_cdn_manager",
+    "workspace": "file:///home/sterben/projects/totalvideo_cdn_manager",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/usr/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-06-07 13:11:50.186 [info] Interpreter from ms-python.python extension for /home/sterben/projects/core-microservice: /bin/python
+2025-06-07 13:11:50.186 [info] Workspace settings for /home/sterben/projects/core-microservice (client side): {
+    "cwd": "/home/sterben/projects/core-microservice",
+    "workspace": "file:///home/sterben/projects/core-microservice",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-06-07 13:11:50.186 [info] Interpreter from ms-python.python extension for /home/sterben/projects/sqlalchemy-utils: /usr/bin/python
+2025-06-07 13:11:50.186 [info] Workspace settings for /home/sterben/projects/sqlalchemy-utils (client side): {
+    "cwd": "/home/sterben/projects/sqlalchemy-utils",
+    "workspace": "file:///home/sterben/projects/sqlalchemy-utils",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/usr/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2025-06-07 13:11:50.187 [info] Global settings (client side): {
+    "cwd": "/home/sterben",
+    "workspace": "/home/sterben",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}

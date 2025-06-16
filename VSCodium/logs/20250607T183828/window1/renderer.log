@@ -1,0 +1,27 @@
+2025-06-07 18:38:28.758 [info] Started local extension host with pid 5566.
+2025-06-07 18:38:28.776 [info] ComputeTargetPlatform: linux-x64
+2025-06-07 18:38:28.871 [info] Placing extension(s) asvetliakov.vscode-neovim on a separate extension host.
+2025-06-07 18:38:28.881 [error] [hollowtree.vue-snippets]: Unknown language in `contributes.vue-snippets.language`. Provided value: vue-html
+2025-06-07 18:38:28.881 [error] [sdras.vue-vscode-snippets]: Unknown language in `contributes.vue-vscode-snippets.language`. Provided value: vue-html
+2025-06-07 18:38:29.350 [info] Started local extension host with pid 5665.
+2025-06-07 18:38:31.314 [error] Activating extension 'ms-python.debugpy' failed: EACCES: permission denied, mkdir '/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints'.
+2025-06-07 18:38:31.380 [info] [perf] Render performance baseline is 20ms
+2025-06-07 18:38:57.152 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.untitledWorkspace
+2025-06-07 18:39:10.448 [info] [lifecycle]: Shutdown was prevented (id: veto.untitledWorkspace)
+2025-06-07 18:39:37.117 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.untitledWorkspace
+2025-06-07 18:39:42.557 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-06-07 18:39:42.862 [info] Started local extension host with pid 6508.
+2025-06-07 18:39:42.894 [info] ComputeTargetPlatform: linux-x64
+2025-06-07 18:39:43.087 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-06-07 18:39:43.130 [info] Ignoring configured affinity for 'asvetliakov.vscode-neovim' because extension host(s) are already running. Reload window.
+2025-06-07 18:39:43.325 [error] [hollowtree.vue-snippets]: Unknown language in `contributes.vue-snippets.language`. Provided value: vue-html
+2025-06-07 18:39:43.325 [error] [sdras.vue-vscode-snippets]: Unknown language in `contributes.vue-vscode-snippets.language`. Provided value: vue-html
+2025-06-07 18:39:44.929 [info] Ignoring configured affinity for 'asvetliakov.vscode-neovim' because extension host(s) are already running. Reload window.
+2025-06-07 18:39:45.461 [info] [perf] Render performance baseline is 13ms
+2025-06-07 18:45:34.134 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-07 18:47:02.594 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-07 18:47:19.960 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-07 20:12:54.177 [error] spawn xterm ENOENT: Error: spawn xterm ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)

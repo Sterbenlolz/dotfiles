@@ -1,0 +1,368 @@
+2025-06-07 13:11:04.788 [info] [main] Log level: Info
+2025-06-07 13:11:04.788 [info] [main] Validating found git in: "git"
+2025-06-07 13:11:04.788 [info] [main] Using git "2.49.0" from "git"
+2025-06-07 13:11:04.788 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-07 13:11:04.788 [info] > git rev-parse --show-toplevel [277ms]
+2025-06-07 13:11:04.788 [info] > git rev-parse --git-dir --git-common-dir [18ms]
+2025-06-07 13:11:04.788 [info] [Model][openRepository] Opened repository (path): /home/sterben/projects/totalvideo_management
+2025-06-07 13:11:04.788 [info] [Model][openRepository] Opened repository (real path): /home/sterben/projects/totalvideo_management
+2025-06-07 13:11:04.788 [info] > git rev-parse --show-toplevel [6ms]
+2025-06-07 13:11:04.788 [info] > git config --get commit.template [8ms]
+2025-06-07 13:11:04.788 [info] > git fetch [31ms]
+2025-06-07 13:11:04.788 [info] ssh: Could not resolve hostname gitlab.totalvideo.ru: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-06-07 13:11:04.793 [info] > git rev-parse --git-dir --git-common-dir [45ms]
+2025-06-07 13:11:04.797 [info] [Model][openRepository] Opened repository (path): /home/sterben/projects/totalvideo_auth
+2025-06-07 13:11:04.797 [info] [Model][openRepository] Opened repository (real path): /home/sterben/projects/totalvideo_auth
+2025-06-07 13:11:04.818 [info] > git fetch [20ms]
+2025-06-07 13:11:04.818 [info] ssh: Could not resolve hostname gitlab.totalvideo.ru: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-06-07 13:11:04.818 [info] > git config --get commit.template [27ms]
+2025-06-07 13:11:04.818 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [32ms]
+2025-06-07 13:11:05.067 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/totalvideo_management/.git/refs/remotes/origin/main'
+2025-06-07 13:11:05.073 [info] > git rev-parse --show-toplevel [256ms]
+2025-06-07 13:11:05.073 [info] > git config --get commit.template [258ms]
+2025-06-07 13:11:05.157 [info] > git rev-parse refs/remotes/origin/main [90ms]
+2025-06-07 13:11:05.162 [info] > git config --get commit.template [97ms]
+2025-06-07 13:11:05.209 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [48ms]
+2025-06-07 13:11:05.215 [info] > git rev-parse --git-dir --git-common-dir [79ms]
+2025-06-07 13:11:05.220 [info] [Model][openRepository] Opened repository (path): /home/sterben/projects/totalvideo_cdn_manager
+2025-06-07 13:11:05.220 [info] [Model][openRepository] Opened repository (real path): /home/sterben/projects/totalvideo_cdn_manager
+2025-06-07 13:11:05.220 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [91ms]
+2025-06-07 13:11:05.240 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/totalvideo_management/.git/refs/remotes/origin/main'
+2025-06-07 13:11:05.241 [info] > git fetch [21ms]
+2025-06-07 13:11:05.241 [info] ssh: Could not resolve hostname gitlab.totalvideo.ru: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-06-07 13:11:05.241 [info] > git config --get --local branch.main.vscode-merge-base [27ms]
+2025-06-07 13:11:05.244 [info] > git config --get commit.template [38ms]
+2025-06-07 13:11:05.244 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [43ms]
+2025-06-07 13:11:05.264 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/totalvideo_auth/.git/refs/remotes/origin/main'
+2025-06-07 13:11:05.264 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [20ms]
+2025-06-07 13:11:05.267 [info] > git rev-parse refs/remotes/origin/main [27ms]
+2025-06-07 13:11:05.270 [info] > git rev-parse --show-toplevel [32ms]
+2025-06-07 13:11:05.270 [info] > git config --get commit.template [35ms]
+2025-06-07 13:11:05.270 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [40ms]
+2025-06-07 13:11:05.287 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/totalvideo_auth/.git/refs/remotes/origin/main'
+2025-06-07 13:11:05.290 [info] > git merge-base refs/heads/main refs/remotes/origin/main [20ms]
+2025-06-07 13:11:05.295 [info] > git merge-base refs/heads/main refs/remotes/origin/main [28ms]
+2025-06-07 13:11:05.299 [info] > git rev-parse refs/remotes/origin/main [36ms]
+2025-06-07 13:11:05.303 [info] > git config --get commit.template [42ms]
+2025-06-07 13:11:05.340 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [38ms]
+2025-06-07 13:11:05.347 [info] > git diff --name-status -z --diff-filter=ADMR 5ce1582bdac77748a50e71d76c439bdff96baea8...refs/remotes/origin/main [48ms]
+2025-06-07 13:11:05.348 [info] > git diff --name-status -z --diff-filter=ADMR 5ce1582bdac77748a50e71d76c439bdff96baea8...refs/remotes/origin/main [54ms]
+2025-06-07 13:11:05.349 [info] > git rev-parse refs/remotes/origin/main [62ms]
+2025-06-07 13:11:05.354 [info] > git rev-parse --git-dir --git-common-dir [70ms]
+2025-06-07 13:11:05.361 [info] [Model][openRepository] Opened repository (path): /home/sterben/projects/core-microservice
+2025-06-07 13:11:05.361 [info] [Model][openRepository] Opened repository (real path): /home/sterben/projects/core-microservice
+2025-06-07 13:11:05.361 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [83ms]
+2025-06-07 13:11:05.399 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/totalvideo_management/.git/refs/remotes/origin/main'
+2025-06-07 13:11:05.403 [info] > git fetch [42ms]
+2025-06-07 13:11:05.403 [info] ssh: Could not resolve hostname gitlab.totalvideo.ru: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-06-07 13:11:05.403 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [49ms]
+2025-06-07 13:11:05.406 [info] > git config --get --local branch.main.vscode-merge-base [59ms]
+2025-06-07 13:11:05.409 [info] > git config --get commit.template [70ms]
+2025-06-07 13:11:05.409 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [77ms]
+2025-06-07 13:11:05.422 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/totalvideo_cdn_manager/.git/refs/remotes/origin/main'
+2025-06-07 13:11:05.423 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [14ms]
+2025-06-07 13:11:05.426 [info] > git config --get --local branch.main.vscode-merge-base [20ms]
+2025-06-07 13:11:05.466 [info] > git rev-parse refs/remotes/origin/main [67ms]
+2025-06-07 13:11:05.473 [info] > git rev-parse --show-toplevel [75ms]
+2025-06-07 13:11:05.473 [info] > git config --get commit.template [78ms]
+2025-06-07 13:11:05.473 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [81ms]
+2025-06-07 13:11:05.481 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/totalvideo_cdn_manager/.git/refs/remotes/origin/main'
+2025-06-07 13:11:05.482 [info] > git status -z -uall [13ms]
+2025-06-07 13:11:05.482 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-06-07 13:11:05.489 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [60ms]
+2025-06-07 13:11:05.493 [info] > git merge-base refs/heads/main refs/remotes/origin/main [66ms]
+2025-06-07 13:11:05.495 [info] > git rev-parse refs/remotes/origin/main [73ms]
+2025-06-07 13:11:05.499 [info] > git config --get commit.template [80ms]
+2025-06-07 13:11:05.506 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-06-07 13:11:05.509 [info] > git diff --name-status -z --diff-filter=ADMR deaeaa35b3e5e5a9495d00738ca28b51492f9a41...refs/remotes/origin/main [14ms]
+2025-06-07 13:11:05.509 [info] > git merge-base refs/heads/main refs/remotes/origin/main [17ms]
+2025-06-07 13:11:05.512 [info] > git rev-parse refs/remotes/origin/main [31ms]
+2025-06-07 13:11:05.515 [info] > git rev-parse --git-dir --git-common-dir [36ms]
+2025-06-07 13:11:05.519 [info] [Model][openRepository] Opened repository (path): /home/sterben/projects/sqlalchemy-utils
+2025-06-07 13:11:05.519 [info] [Model][openRepository] Opened repository (real path): /home/sterben/projects/sqlalchemy-utils
+2025-06-07 13:11:05.520 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [44ms]
+2025-06-07 13:11:05.551 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/totalvideo_auth/.git/refs/remotes/origin/main'
+2025-06-07 13:11:05.552 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [38ms]
+2025-06-07 13:11:05.557 [info] > git diff --name-status -z --diff-filter=ADMR deaeaa35b3e5e5a9495d00738ca28b51492f9a41...refs/remotes/origin/main [45ms]
+2025-06-07 13:11:05.557 [info] > git config --get --local branch.main.vscode-merge-base [48ms]
+2025-06-07 13:11:05.561 [info] > git config --get commit.template [55ms]
+2025-06-07 13:11:05.561 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [58ms]
+2025-06-07 13:11:05.568 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/core-microservice/.git/refs/remotes/origin/main'
+2025-06-07 13:11:05.570 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [10ms]
+2025-06-07 13:11:05.575 [info] > git config --get --local branch.main.vscode-merge-base [19ms]
+2025-06-07 13:11:05.580 [info] > git rev-parse refs/remotes/origin/main [28ms]
+2025-06-07 13:11:05.590 [info] > git rev-parse --show-toplevel [43ms]
+2025-06-07 13:11:05.590 [info] > git config --get commit.template [46ms]
+2025-06-07 13:11:05.590 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [49ms]
+2025-06-07 13:11:05.593 [info] > git fetch [73ms]
+2025-06-07 13:11:05.593 [info] ssh: Could not resolve hostname gitlab.totalvideo.ru: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-06-07 13:11:05.602 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/core-microservice/.git/refs/remotes/origin/main'
+2025-06-07 13:11:05.606 [info] > git status -z -uall [21ms]
+2025-06-07 13:11:05.606 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [16ms]
+2025-06-07 13:11:05.608 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [29ms]
+2025-06-07 13:11:05.611 [info] > git merge-base refs/heads/main refs/remotes/origin/main [36ms]
+2025-06-07 13:11:05.614 [info] > git rev-parse refs/remotes/origin/main [46ms]
+2025-06-07 13:11:05.632 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2025-06-07 13:11:05.636 [info] > git diff --name-status -z --diff-filter=ADMR e9598d8c7fd3ad48ecf6d74ca0e96619a35e4b62...refs/remotes/origin/main [23ms]
+2025-06-07 13:11:05.636 [info] > git merge-base refs/heads/main refs/remotes/origin/main [25ms]
+2025-06-07 13:11:05.639 [info] > git config --get commit.template [34ms]
+2025-06-07 13:11:05.639 [info] > git rev-parse refs/remotes/origin/main [37ms]
+2025-06-07 13:11:05.642 [info] > git rev-parse --show-toplevel [42ms]
+2025-06-07 13:11:05.642 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [45ms]
+2025-06-07 13:11:05.648 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/totalvideo_cdn_manager/.git/refs/remotes/origin/main'
+2025-06-07 13:11:05.648 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-06-07 13:11:05.651 [info] > git diff --name-status -z --diff-filter=ADMR e9598d8c7fd3ad48ecf6d74ca0e96619a35e4b62...refs/remotes/origin/main [12ms]
+2025-06-07 13:11:05.651 [info] > git config --get --local branch.main.vscode-merge-base [16ms]
+2025-06-07 13:11:05.654 [info] > git config --get commit.template [24ms]
+2025-06-07 13:11:05.654 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [27ms]
+2025-06-07 13:11:05.659 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/sqlalchemy-utils/.git/refs/remotes/origin/main'
+2025-06-07 13:11:05.660 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [6ms]
+2025-06-07 13:11:05.662 [info] > git config --get --local branch.main.vscode-merge-base [11ms]
+2025-06-07 13:11:05.666 [info] > git rev-parse refs/remotes/origin/main [18ms]
+2025-06-07 13:11:05.673 [info] > git rev-parse --show-toplevel [27ms]
+2025-06-07 13:11:05.683 [info] > git status -z -uall [13ms]
+2025-06-07 13:11:05.683 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2025-06-07 13:11:05.685 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [19ms]
+2025-06-07 13:11:05.688 [info] > git merge-base refs/heads/main refs/remotes/origin/main [26ms]
+2025-06-07 13:11:05.691 [info] > git rev-parse refs/remotes/origin/main [32ms]
+2025-06-07 13:11:05.695 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [39ms]
+2025-06-07 13:11:05.701 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/sqlalchemy-utils/.git/refs/remotes/origin/main'
+2025-06-07 13:11:05.701 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-06-07 13:11:05.705 [info] > git diff --name-status -z --diff-filter=ADMR 058467519585a77f3601646f40323ae6f1848ccf...refs/remotes/origin/main [14ms]
+2025-06-07 13:11:05.705 [info] > git merge-base refs/heads/main refs/remotes/origin/main [17ms]
+2025-06-07 13:11:05.708 [info] > git rev-parse --show-toplevel [26ms]
+2025-06-07 13:11:05.708 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [29ms]
+2025-06-07 13:11:05.720 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/core-microservice/.git/refs/remotes/origin/main'
+2025-06-07 13:11:05.721 [info] > git diff --name-status -z --diff-filter=ADMR 058467519585a77f3601646f40323ae6f1848ccf...refs/remotes/origin/main [12ms]
+2025-06-07 13:11:05.721 [info] > git config --get --local branch.main.vscode-merge-base [17ms]
+2025-06-07 13:11:05.727 [info] > git rev-parse refs/remotes/origin/main [26ms]
+2025-06-07 13:11:05.734 [info] > git config --get commit.template [36ms]
+2025-06-07 13:11:05.740 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-06-07 13:11:05.744 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [17ms]
+2025-06-07 13:11:05.746 [info] > git rev-parse refs/remotes/origin/main [26ms]
+2025-06-07 13:11:05.752 [info] > git rev-parse --show-toplevel [36ms]
+2025-06-07 13:11:05.758 [info] > git status -z -uall [9ms]
+2025-06-07 13:11:05.758 [info] > git merge-base refs/heads/main refs/remotes/origin/main [12ms]
+2025-06-07 13:11:05.763 [info] > git config --get --local branch.main.vscode-merge-base [19ms]
+2025-06-07 13:11:05.767 [info] > git diff --name-status -z --diff-filter=ADMR b643c80f77087d8c9921de0aae9b366887301abf...refs/remotes/origin/main [4ms]
+2025-06-07 13:11:05.767 [info] > git rev-parse --show-toplevel [9ms]
+2025-06-07 13:11:05.767 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2025-06-07 13:11:05.767 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [15ms]
+2025-06-07 13:11:05.778 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/sqlalchemy-utils/.git/refs/remotes/origin/main'
+2025-06-07 13:11:05.779 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [13ms]
+2025-06-07 13:11:05.779 [info] > git rev-parse --show-toplevel [5ms]
+2025-06-07 13:11:05.784 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2025-06-07 13:11:05.797 [info] > git status -z -uall [7ms]
+2025-06-07 13:11:05.797 [info] > git rev-parse --show-toplevel [14ms]
+2025-06-07 13:11:05.803 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-06-07 13:11:05.805 [info] > git rev-parse --show-toplevel [3ms]
+2025-06-07 13:11:05.811 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-07 13:11:05.811 [info] [Model][doInitialScan] Initial repository scan completed - repositories (5), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-07 13:11:06.124 [info] > git check-ignore -v -z --stdin [24ms]
+2025-06-07 13:11:06.132 [info] > git check-ignore -v -z --stdin [25ms]
+2025-06-07 13:11:06.133 [info] > git check-ignore -v -z --stdin [16ms]
+2025-06-07 13:11:06.133 [info] > git check-ignore -v -z --stdin [12ms]
+2025-06-07 13:11:06.133 [info] > git check-ignore -v -z --stdin [10ms]
+2025-06-07 13:11:50.126 [info] [main] Log level: Info
+2025-06-07 13:11:50.126 [info] [main] Validating found git in: "git"
+2025-06-07 13:11:50.126 [info] [main] Using git "2.49.0" from "git"
+2025-06-07 13:11:50.126 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-07 13:11:50.126 [info] > git rev-parse --show-toplevel [22ms]
+2025-06-07 13:11:50.136 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2025-06-07 13:11:50.146 [info] [Model][openRepository] Opened repository (path): /home/sterben/projects/totalvideo_management
+2025-06-07 13:11:50.146 [info] [Model][openRepository] Opened repository (real path): /home/sterben/projects/totalvideo_management
+2025-06-07 13:11:50.170 [info] > git rev-parse --show-toplevel [10ms]
+2025-06-07 13:11:50.170 [info] > git config --get commit.template [13ms]
+2025-06-07 13:11:50.171 [info] > git fetch [25ms]
+2025-06-07 13:11:50.171 [info] ssh: Could not resolve hostname gitlab.totalvideo.ru: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-06-07 13:11:50.192 [info] > git rev-parse --git-dir --git-common-dir [16ms]
+2025-06-07 13:11:50.198 [info] [Model][openRepository] Opened repository (path): /home/sterben/projects/totalvideo_auth
+2025-06-07 13:11:50.198 [info] [Model][openRepository] Opened repository (real path): /home/sterben/projects/totalvideo_auth
+2025-06-07 13:11:50.238 [info] > git fetch [40ms]
+2025-06-07 13:11:50.238 [info] ssh: Could not resolve hostname gitlab.totalvideo.ru: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-06-07 13:11:50.238 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [47ms]
+2025-06-07 13:11:50.242 [info] > git config --get commit.template [62ms]
+2025-06-07 13:11:50.262 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/totalvideo_management/.git/refs/remotes/origin/main'
+2025-06-07 13:11:50.263 [info] > git rev-parse --show-toplevel [27ms]
+2025-06-07 13:11:50.263 [info] > git config --get commit.template [30ms]
+2025-06-07 13:11:50.508 [info] > git rev-parse refs/remotes/origin/main [246ms]
+2025-06-07 13:11:50.513 [info] > git config --get commit.template [253ms]
+2025-06-07 13:11:50.513 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [256ms]
+2025-06-07 13:11:50.586 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/totalvideo_management/.git/refs/remotes/origin/main'
+2025-06-07 13:11:50.604 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [92ms]
+2025-06-07 13:11:50.607 [info] > git rev-parse --git-dir --git-common-dir [101ms]
+2025-06-07 13:11:50.612 [info] [Model][openRepository] Opened repository (path): /home/sterben/projects/totalvideo_cdn_manager
+2025-06-07 13:11:50.612 [info] [Model][openRepository] Opened repository (real path): /home/sterben/projects/totalvideo_cdn_manager
+2025-06-07 13:11:50.634 [info] > git fetch [23ms]
+2025-06-07 13:11:50.634 [info] ssh: Could not resolve hostname gitlab.totalvideo.ru: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-06-07 13:11:50.634 [info] > git config --get --local branch.main.vscode-merge-base [27ms]
+2025-06-07 13:11:50.637 [info] > git rev-parse refs/remotes/origin/main [51ms]
+2025-06-07 13:11:50.640 [info] > git config --get commit.template [58ms]
+2025-06-07 13:11:50.640 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [63ms]
+2025-06-07 13:11:50.653 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/totalvideo_auth/.git/refs/remotes/origin/main'
+2025-06-07 13:11:50.653 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2025-06-07 13:11:50.656 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [20ms]
+2025-06-07 13:11:50.660 [info] > git rev-parse --show-toplevel [27ms]
+2025-06-07 13:11:50.660 [info] > git config --get commit.template [30ms]
+2025-06-07 13:11:50.660 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [36ms]
+2025-06-07 13:11:50.671 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/totalvideo_auth/.git/refs/remotes/origin/main'
+2025-06-07 13:11:50.673 [info] > git merge-base refs/heads/main refs/remotes/origin/main [13ms]
+2025-06-07 13:11:50.676 [info] > git config --get --local branch.main.vscode-merge-base [20ms]
+2025-06-07 13:11:50.679 [info] > git rev-parse refs/remotes/origin/main [27ms]
+2025-06-07 13:11:50.682 [info] > git config --get commit.template [34ms]
+2025-06-07 13:11:50.697 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2025-06-07 13:11:50.700 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [22ms]
+2025-06-07 13:11:50.704 [info] > git diff --name-status -z --diff-filter=ADMR 5ce1582bdac77748a50e71d76c439bdff96baea8...refs/remotes/origin/main [27ms]
+2025-06-07 13:11:50.704 [info] > git rev-parse refs/remotes/origin/main [33ms]
+2025-06-07 13:11:50.709 [info] > git rev-parse --git-dir --git-common-dir [41ms]
+2025-06-07 13:11:50.716 [info] [Model][openRepository] Opened repository (path): /home/sterben/projects/core-microservice
+2025-06-07 13:11:50.716 [info] [Model][openRepository] Opened repository (real path): /home/sterben/projects/core-microservice
+2025-06-07 13:11:50.716 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [51ms]
+2025-06-07 13:11:50.753 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/totalvideo_management/.git/refs/remotes/origin/main'
+2025-06-07 13:11:50.754 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [44ms]
+2025-06-07 13:11:50.757 [info] > git merge-base refs/heads/main refs/remotes/origin/main [54ms]
+2025-06-07 13:11:50.761 [info] > git config --get --local branch.main.vscode-merge-base [61ms]
+2025-06-07 13:11:50.764 [info] > git config --get commit.template [68ms]
+2025-06-07 13:11:50.764 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [72ms]
+2025-06-07 13:11:50.772 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/totalvideo_cdn_manager/.git/refs/remotes/origin/main'
+2025-06-07 13:11:50.773 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [9ms]
+2025-06-07 13:11:50.777 [info] > git diff --name-status -z --diff-filter=ADMR 5ce1582bdac77748a50e71d76c439bdff96baea8...refs/remotes/origin/main [15ms]
+2025-06-07 13:11:50.777 [info] > git config --get --local branch.main.vscode-merge-base [20ms]
+2025-06-07 13:11:50.779 [info] > git rev-parse refs/remotes/origin/main [26ms]
+2025-06-07 13:11:50.785 [info] > git rev-parse --show-toplevel [36ms]
+2025-06-07 13:11:50.785 [info] > git config --get commit.template [39ms]
+2025-06-07 13:11:50.786 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [66ms]
+2025-06-07 13:11:50.786 [info] > git fetch [70ms]
+2025-06-07 13:11:50.786 [info] ssh: Could not resolve hostname gitlab.totalvideo.ru: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-06-07 13:11:50.816 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/totalvideo_cdn_manager/.git/refs/remotes/origin/main'
+2025-06-07 13:11:50.821 [info] > git status -z -uall [39ms]
+2025-06-07 13:11:50.821 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [36ms]
+2025-06-07 13:11:50.828 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [49ms]
+2025-06-07 13:11:50.832 [info] > git merge-base refs/heads/main refs/remotes/origin/main [56ms]
+2025-06-07 13:11:50.835 [info] > git rev-parse refs/remotes/origin/main [63ms]
+2025-06-07 13:11:50.903 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [65ms]
+2025-06-07 13:11:50.907 [info] > git diff --name-status -z --diff-filter=ADMR deaeaa35b3e5e5a9495d00738ca28b51492f9a41...refs/remotes/origin/main [72ms]
+2025-06-07 13:11:50.907 [info] > git merge-base refs/heads/main refs/remotes/origin/main [75ms]
+2025-06-07 13:11:50.911 [info] > git config --get commit.template [92ms]
+2025-06-07 13:11:50.911 [info] > git rev-parse refs/remotes/origin/main [95ms]
+2025-06-07 13:11:50.915 [info] > git rev-parse --git-dir --git-common-dir [101ms]
+2025-06-07 13:11:50.920 [info] [Model][openRepository] Opened repository (path): /home/sterben/projects/sqlalchemy-utils
+2025-06-07 13:11:50.920 [info] [Model][openRepository] Opened repository (real path): /home/sterben/projects/sqlalchemy-utils
+2025-06-07 13:11:50.920 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [109ms]
+2025-06-07 13:11:50.932 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/totalvideo_auth/.git/refs/remotes/origin/main'
+2025-06-07 13:11:50.933 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2025-06-07 13:11:50.936 [info] > git diff --name-status -z --diff-filter=ADMR deaeaa35b3e5e5a9495d00738ca28b51492f9a41...refs/remotes/origin/main [25ms]
+2025-06-07 13:11:50.936 [info] > git config --get --local branch.main.vscode-merge-base [29ms]
+2025-06-07 13:11:50.938 [info] > git config --get commit.template [73ms]
+2025-06-07 13:11:50.939 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [77ms]
+2025-06-07 13:11:50.963 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/core-microservice/.git/refs/remotes/origin/main'
+2025-06-07 13:11:50.964 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [26ms]
+2025-06-07 13:11:50.967 [info] > git config --get --local branch.main.vscode-merge-base [31ms]
+2025-06-07 13:11:50.969 [info] > git rev-parse refs/remotes/origin/main [37ms]
+2025-06-07 13:11:50.975 [info] > git rev-parse --show-toplevel [46ms]
+2025-06-07 13:11:50.975 [info] > git config --get commit.template [48ms]
+2025-06-07 13:11:50.975 [info] > git fetch [55ms]
+2025-06-07 13:11:50.975 [info] ssh: Could not resolve hostname gitlab.totalvideo.ru: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-06-07 13:11:50.987 [info] > git status -z -uall [15ms]
+2025-06-07 13:11:50.987 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2025-06-07 13:11:50.989 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [20ms]
+2025-06-07 13:11:50.993 [info] > git merge-base refs/heads/main refs/remotes/origin/main [26ms]
+2025-06-07 13:11:50.995 [info] > git rev-parse refs/remotes/origin/main [32ms]
+2025-06-07 13:11:50.999 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [39ms]
+2025-06-07 13:11:51.010 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/core-microservice/.git/refs/remotes/origin/main'
+2025-06-07 13:11:51.013 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2025-06-07 13:11:51.017 [info] > git diff --name-status -z --diff-filter=ADMR e9598d8c7fd3ad48ecf6d74ca0e96619a35e4b62...refs/remotes/origin/main [22ms]
+2025-06-07 13:11:51.017 [info] > git merge-base refs/heads/main refs/remotes/origin/main [24ms]
+2025-06-07 13:11:51.020 [info] > git config --get commit.template [36ms]
+2025-06-07 13:11:51.020 [info] > git rev-parse --show-toplevel [38ms]
+2025-06-07 13:11:51.020 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [41ms]
+2025-06-07 13:11:51.032 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/totalvideo_cdn_manager/.git/refs/remotes/origin/main'
+2025-06-07 13:11:51.033 [info] > git diff --name-status -z --diff-filter=ADMR e9598d8c7fd3ad48ecf6d74ca0e96619a35e4b62...refs/remotes/origin/main [13ms]
+2025-06-07 13:11:51.034 [info] > git config --get --local branch.main.vscode-merge-base [17ms]
+2025-06-07 13:11:51.037 [info] > git rev-parse refs/remotes/origin/main [27ms]
+2025-06-07 13:11:51.040 [info] > git config --get commit.template [32ms]
+2025-06-07 13:11:51.040 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [35ms]
+2025-06-07 13:11:51.047 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/sqlalchemy-utils/.git/refs/remotes/origin/main'
+2025-06-07 13:11:51.048 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-06-07 13:11:51.051 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [14ms]
+2025-06-07 13:11:51.054 [info] > git rev-parse refs/remotes/origin/main [22ms]
+2025-06-07 13:11:51.059 [info] > git rev-parse --show-toplevel [29ms]
+2025-06-07 13:11:51.080 [info] > git status -z -uall [24ms]
+2025-06-07 13:11:51.080 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [21ms]
+2025-06-07 13:11:51.082 [info] > git merge-base refs/heads/main refs/remotes/origin/main [28ms]
+2025-06-07 13:11:51.085 [info] > git config --get --local branch.main.vscode-merge-base [34ms]
+2025-06-07 13:11:51.088 [info] > git rev-parse refs/remotes/origin/main [41ms]
+2025-06-07 13:11:51.092 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [48ms]
+2025-06-07 13:11:51.098 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/sqlalchemy-utils/.git/refs/remotes/origin/main'
+2025-06-07 13:11:51.099 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-06-07 13:11:51.102 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [14ms]
+2025-06-07 13:11:51.106 [info] > git diff --name-status -z --diff-filter=ADMR 058467519585a77f3601646f40323ae6f1848ccf...refs/remotes/origin/main [21ms]
+2025-06-07 13:11:51.106 [info] > git rev-parse --show-toplevel [37ms]
+2025-06-07 13:11:51.106 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [40ms]
+2025-06-07 13:11:51.121 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/core-microservice/.git/refs/remotes/origin/main'
+2025-06-07 13:11:51.121 [info] > git merge-base refs/heads/main refs/remotes/origin/main [15ms]
+2025-06-07 13:11:51.126 [info] > git config --get --local branch.main.vscode-merge-base [24ms]
+2025-06-07 13:11:51.130 [info] > git rev-parse refs/remotes/origin/main [32ms]
+2025-06-07 13:11:51.134 [info] > git config --get commit.template [38ms]
+2025-06-07 13:11:51.136 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-06-07 13:11:51.140 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [10ms]
+2025-06-07 13:11:51.145 [info] > git diff --name-status -z --diff-filter=ADMR 058467519585a77f3601646f40323ae6f1848ccf...refs/remotes/origin/main [19ms]
+2025-06-07 13:11:51.145 [info] > git rev-parse refs/remotes/origin/main [24ms]
+2025-06-07 13:11:51.151 [info] > git rev-parse --show-toplevel [34ms]
+2025-06-07 13:11:51.156 [info] > git status -z -uall [8ms]
+2025-06-07 13:11:51.157 [info] > git merge-base refs/heads/main refs/remotes/origin/main [13ms]
+2025-06-07 13:11:51.159 [info] > git config --get --local branch.main.vscode-merge-base [19ms]
+2025-06-07 13:11:51.163 [info] > git diff --name-status -z --diff-filter=ADMR b643c80f77087d8c9921de0aae9b366887301abf...refs/remotes/origin/main [4ms]
+2025-06-07 13:11:51.163 [info] > git rev-parse --show-toplevel [7ms]
+2025-06-07 13:11:51.163 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2025-06-07 13:11:51.164 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2025-06-07 13:11:51.170 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sterben/projects/sqlalchemy-utils/.git/refs/remotes/origin/main'
+2025-06-07 13:11:51.171 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [9ms]
+2025-06-07 13:11:51.171 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-06-07 13:11:51.176 [info] > git rev-parse --show-toplevel [8ms]
+2025-06-07 13:11:51.179 [info] > git status -z -uall [5ms]
+2025-06-07 13:11:51.180 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-07 13:11:51.180 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-06-07 13:11:51.185 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-07 13:11:51.188 [info] > git rev-parse --show-toplevel [0ms]
+2025-06-07 13:11:51.188 [info] [Model][doInitialScan] Initial repository scan completed - repositories (5), closed repositories (0), parent repositories (0), unsafe repositories (0)

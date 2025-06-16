@@ -11,6 +11,7 @@ WALLPAPER=$(find "$WALLPAPER_DIR" -type f \( -name "*.jpg" -o -name "*.png" \) |
 
 
 # Get the name of the focused monitor with hyprctl
+hyprctl hyprpaper preload "$WALLPAPER"
 for FOCUSED_MONITOR in $(hyprctl monitors -j | jq -r '.[].name')
 do
     echo "Changing wallpaper for monitor: $FOCUSED_MONITOR"
@@ -18,9 +19,7 @@ do
     
     if [[ -n "$WALLPAPER" ]]; then
         echo "Setting wallpaper: $WALLPAPER"
-        hyprctl hyprpaper preload "$WALLPAPER"
         hyprctl hyprpaper wallpaper "$FOCUSED_MONITOR,$WALLPAPER"
-        hyprctl hyprpaper unload all
     else
         echo "No new wallpapers found in $WALLPAPER_DIR"
     fi
@@ -28,7 +27,7 @@ done
 
 ln -sf $(hyprctl hyprpaper listactive | head -n1 | awk '{print $3}') ~/.cache/current-wallpaper
 
-wallust run -qw $WALLPAPER
+wallust run -qw "$WALLPAPER"
 
 killall waybar
 
@@ -37,3 +36,4 @@ hyprctl reload
 swaync-client -rs
 
 waybar &
+

@@ -1,0 +1,63 @@
+2025-06-07 22:20:52.971 [info] MainController: Starting nvim: /usr/bin/nvim -N --embed --cmd source /home/sterben/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.18.22-universal/runtime/vscode-neovim.vim
+2025-06-07 22:20:53.000 [info] MainController: Nvim info: {
+  configDir: '/home/sterben/.config/nvim',
+  nvimVersion: {
+    api_level: 13,
+    api_prerelease: false,
+    build: 'dirty',
+    prerelease: false,
+    api_compatible: 0,
+    major: 0,
+    minor: 11,
+    patch: 2
+  },
+  logFile: '/home/sterben/.local/state/nvim/log'
+}
+2025-06-07 22:21:48.254 [info] MessagesManager: '/custom             \n'
+2025-06-07 22:21:48.255 [info] MessagesManager: '/custom        [1/1]\n'
+2025-06-07 22:21:52.547 [info] MessagesManager: '/custom        [1/1]\nE348: No string under cursor\n'
+2025-06-07 22:23:11.030 [info] MessagesManager: '/temperature             \n'
+2025-06-07 22:23:11.031 [info] MessagesManager: '/temperature        [1/4]\n'
+2025-06-07 22:23:23.517 [info] MessagesManager: '/temperature             \n'
+2025-06-07 22:23:23.517 [info] MessagesManager: '/temperature        [2/4]\n'
+2025-06-07 22:25:10.994 [info] MessagesManager: '/temperature             \n'
+2025-06-07 22:25:10.995 [info] MessagesManager: '/temperature        [3/4]\n'
+2025-06-07 22:25:11.716 [info] MessagesManager: '/temperature             \n'
+2025-06-07 22:25:11.718 [info] MessagesManager: '/temperature        [4/4]\n'
+2025-06-07 22:25:12.072 [info] MessagesManager: '/temperature             \n'
+2025-06-07 22:25:12.074 [info] MessagesManager: '/temperature      W [1/4]\n'
+2025-06-07 22:25:13.081 [info] MessagesManager: '/temperature             \n'
+2025-06-07 22:25:13.083 [info] MessagesManager: '/temperature        [2/4]\n'
+2025-06-07 22:25:13.823 [info] MessagesManager: '/temperature             \n'
+2025-06-07 22:25:13.824 [info] MessagesManager: '/temperature        [3/4]\n'
+2025-06-07 22:25:14.608 [info] MessagesManager: '/temperature             \n'
+2025-06-07 22:25:14.609 [info] MessagesManager: '/temperature        [4/4]\n'
+2025-06-07 22:32:36.809 [info] MessagesManager: '/modules             \n'
+2025-06-07 22:32:36.811 [info] MessagesManager: '/modules        [1/3]\n'
+2025-06-07 23:35:10.659 [info] MessagesManager: '5 fewer lines\n'
+2025-06-07 23:36:40.790 [info] MessagesManager: '3 more lines\n'
+2025-06-07 23:36:43.608 [info] MessagesManager: '1 change; before #6  3 seconds ago\n'
+2025-06-07 23:36:43.863 [info] MessagesManager: '3 fewer lines; before #5  3 seconds ago\n'
+2025-06-07 23:36:44.100 [info] MessagesManager: '1 more line; before #4  89 seconds ago\n'
+2025-06-07 23:39:58.492 [info] MessagesManager: '1 more line; before #13  30 seconds ago\n'
+2025-06-07 23:39:58.672 [info] MessagesManager: '1 more line; before #12  31 seconds ago\n'
+2025-06-07 23:39:58.827 [info] MessagesManager: '1 line less; before #11  23:38:13\n'
+2025-06-07 23:39:59.007 [info] MessagesManager: '1 more line; before #10  23:38:09\n'
+2025-06-07 23:39:59.171 [info] MessagesManager: '1 more line; before #9  23:38:05\n'
+2025-06-07 23:39:59.304 [info] MessagesManager: '3 fewer lines; before #8  23:36:57\n'
+2025-06-07 23:39:59.483 [info] MessagesManager: '1 more line; before #7  23:36:47\n'
+2025-06-07 23:39:59.620 [info] MessagesManager: '1 change; before #3  23:35:12\n'
+2025-06-07 23:39:59.779 [info] MessagesManager: '5 more lines; before #2  23:35:10\n'
+2025-06-07 23:39:59.934 [info] MessagesManager: 'Already at oldest change\n'
+2025-06-07 23:40:00.101 [info] MessagesManager: 'Already at oldest change\n'
+2025-06-07 23:40:00.272 [info] MessagesManager: 'Already at oldest change\n'
+2025-06-07 23:40:00.470 [info] MessagesManager: 'Already at oldest change\n'
+2025-06-07 23:40:00.655 [info] MessagesManager: 'Already at oldest change\n'
+2025-06-07 23:40:00.855 [info] MessagesManager: 'Already at oldest change\n'
+2025-06-07 23:40:01.080 [info] MessagesManager: 'Already at oldest change\n'
+2025-06-07 23:40:09.455 [info] MessagesManager: '6 fewer lines\n'
+2025-06-07 23:43:13.320 [info] MessagesManager: '3 lines yanked\n'
+2025-06-07 23:48:58.516 [info] MessagesManager: '10 fewer lines\n'
+2025-06-07 23:48:59.953 [info] MessagesManager: '3 fewer lines\n'
+2025-06-07 23:49:22.824 [info] MessagesManager: '4 fewer lines\n'
+2025-06-07 23:53:52.271 [info] MessagesManager: '4 fewer lines\n'

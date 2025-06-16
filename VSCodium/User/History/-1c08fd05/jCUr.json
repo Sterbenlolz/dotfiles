@@ -1,0 +1,99 @@
+{
+    "diffEditor.renderSideBySide": false,
+    "editor.fontFamily": "\"JetBrainsMono NFP\", monospace",
+    "editor.inlayHints.fontFamily": "\"JetBrainsMono NFP\", monospace",
+    "editor.fontSize": 16,
+    "editor.inlayHints.enabled": "on",
+    "editor.lightbulb.enabled": "off",
+    "editor.cursorBlinking": "smooth",
+    "editor.formatOnSaveMode": "file",
+    "editor.unicodeHighlight.allowedLocales": {
+        "ru": true
+    },
+    "explorer.confirmDelete": false,
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.git/objects/**": true,
+        "**/tmp/**": true
+    },
+    "window.enableMenuBarMnemonics": false,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "git.timeline.showAuthor": false,
+    "git.confirmSync": false,
+    "window.customMenuBarAltFocus": false,
+    "window.titleBarStyle": "custom",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "python.analysis.autoImportCompletions": true,
+    "testing.showAllMessages": true,
+    "html.format.templating": true,
+    "debug.openExplorerOnEnd": true,
+    "terminal.integrated.inheritEnv": false,
+    "remote.SSH.remoteServerListenOnSocket": true,
+    "python.terminal.activateEnvironment": false,
+    "python.analysis.inlayHints.callArgumentNames": "partial",
+    "python.analysis.typeCheckingMode": "off",
+    "todo-tree.filtering.excludeGlobs": [
+        "**/node_modules/*/**",
+        "**/.venv/*/**"
+    ],
+    "javascript.preferGoToSourceDefinition": true,
+    "workbench.settings.applyToAllProfiles": [
+        "python.analysis.diagnosticMode"
+    ],
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.formatOnSave": true,
+        "editor.wordBasedSuggestions": "off",
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit",
+            "source.unusedImports": "always"
+        },
+    },
+    "files.watcherExclude": {
+        "**/dist/**": true,
+        "**/tmp/**": true
+    },
+    "search.exclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/dist/**": true,
+        "**/node_modules/**": true,
+        "**/tmp/**": true
+    },
+    "extensions.autoCheckUpdates": false,
+    "extensions.autoUpdate": false,
+    "python.languageServer": "Pylance",
+    "python.missingPackage.severity": "Warning",
+    "update.mode": "none",
+    "python.analysis.diagnosticMode": "openFilesOnly",
+    "python.analysis.userFileIndexingLimit": 100,
+    "python.analysis.ignore": [
+        ".venv"
+    ],
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.codeLens.scopes": [
+        "document",
+        "containers",
+        "blocks"
+    ],
+    "gitlens.views.contributors.showStatistics": true,
+    "workbench.colorTheme": "Default Dark+",
+    "settingsSync.ignoredSettings": [
+        "-window.zoomLevel"
+    ],
+    "editor.formatOnSave": true,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "window.zoomLevel": 1.5,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
+}

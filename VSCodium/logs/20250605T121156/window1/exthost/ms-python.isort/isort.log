@@ -1,0 +1,209 @@
+2025-06-05 12:11:58.000 [info] Name: isort
+2025-06-05 12:11:58.000 [info] Module: isort
+2025-06-05 12:11:58.000 [info] Python extension loading
+2025-06-05 12:11:58.000 [info] Waiting for interpreter from python extension.
+2025-06-05 12:11:58.000 [info] Python extension loaded
+2025-06-05 12:11:58.000 [info] No interpreter found from setting isort.interpreter
+2025-06-05 12:11:58.000 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/totalvideo_auth
+2025-06-05 12:11:58.000 [info] Interpreter from ms-python.python extension for /home/sterben/projects/totalvideo_auth: /usr/bin/python
+2025-06-05 12:11:58.000 [info] No interpreter found from setting isort.interpreter
+2025-06-05 12:11:58.000 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/totalvideo_management
+2025-06-05 12:11:58.000 [info] No interpreter found from setting isort.interpreter
+2025-06-05 12:11:58.000 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/totalvideo_auth
+2025-06-05 12:11:58.000 [info] No interpreter found from setting isort.interpreter
+2025-06-05 12:11:58.000 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/totalvideo_cdn_manager
+2025-06-05 12:11:58.000 [info] No interpreter found from setting isort.interpreter
+2025-06-05 12:11:58.000 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/core-microservice
+2025-06-05 12:11:58.000 [info] No interpreter found from setting isort.interpreter
+2025-06-05 12:11:58.000 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/sqlalchemy-utils
+2025-06-05 12:11:58.000 [info] Interpreter from ms-python.python extension for /home/sterben/projects/totalvideo_management: /bin/python
+2025-06-05 12:11:58.000 [info] Interpreter from ms-python.python extension for /home/sterben/projects/totalvideo_auth: /usr/bin/python
+2025-06-05 12:11:58.000 [info] Interpreter from ms-python.python extension for /home/sterben/projects/totalvideo_cdn_manager: /usr/bin/python
+2025-06-05 12:11:58.000 [info] Interpreter from ms-python.python extension for /home/sterben/projects/core-microservice: /bin/python
+2025-06-05 12:11:58.000 [info] Interpreter from ms-python.python extension for /home/sterben/projects/sqlalchemy-utils: /usr/bin/python
+2025-06-05 12:14:50.286 [info] No interpreter found from setting isort.interpreter
+2025-06-05 12:14:50.286 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/totalvideo_auth
+2025-06-05 12:14:50.287 [info] Interpreter from ms-python.python extension for /home/sterben/projects/totalvideo_auth: /usr/bin/python
+2025-06-05 12:14:50.287 [info] No interpreter found from setting isort.interpreter
+2025-06-05 12:14:50.287 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/totalvideo_management
+2025-06-05 12:14:50.287 [info] No interpreter found from setting isort.interpreter
+2025-06-05 12:14:50.287 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/totalvideo_auth
+2025-06-05 12:14:50.287 [info] No interpreter found from setting isort.interpreter
+2025-06-05 12:14:50.287 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/totalvideo_cdn_manager
+2025-06-05 12:14:50.287 [info] No interpreter found from setting isort.interpreter
+2025-06-05 12:14:50.287 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/core-microservice
+2025-06-05 12:14:50.287 [info] No interpreter found from setting isort.interpreter
+2025-06-05 12:14:50.287 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/sqlalchemy-utils
+2025-06-05 12:14:50.292 [info] Interpreter from ms-python.python extension for /home/sterben/projects/totalvideo_management: /home/sterben/projects/totalvideo_management/.venv/bin/python
+2025-06-05 12:14:50.292 [info] Interpreter from ms-python.python extension for /home/sterben/projects/totalvideo_auth: /usr/bin/python
+2025-06-05 12:14:50.292 [info] Interpreter from ms-python.python extension for /home/sterben/projects/totalvideo_cdn_manager: /usr/bin/python
+2025-06-05 12:14:50.292 [info] Interpreter from ms-python.python extension for /home/sterben/projects/core-microservice: /bin/python
+2025-06-05 12:14:50.292 [info] Interpreter from ms-python.python extension for /home/sterben/projects/sqlalchemy-utils: /usr/bin/python
+2025-06-05 12:14:50.296 [info] Server run command: /usr/bin/python /home/sterben/.vscode-oss/extensions/ms-python.isort-2025.0.0/bundled/tool/lsp_server.py
+2025-06-05 12:14:50.297 [info] Server: Start requested.
+2025-06-05 12:14:50.763 [info] CWD Server: /home/sterben/projects/totalvideo_auth
+2025-06-05 12:14:50.763 [info] sys.path used to run Server:
+   /home/sterben/.vscode-oss/extensions/ms-python.isort-2025.0.0/bundled/libs
+   /home/sterben/.vscode-oss/extensions/ms-python.isort-2025.0.0/bundled/tool
+   /usr/lib/python313.zip
+   /usr/lib/python3.13
+   /usr/lib/python3.13/lib-dynload
+   /usr/lib/python3.13/site-packages
+2025-06-05 12:14:50.763 [info] Settings used to run Server:
+[
+    {
+        "check": false,
+        "cwd": "/home/sterben/projects/totalvideo_management",
+        "workspace": "file:///home/sterben/projects/totalvideo_management",
+        "args": [
+            "--profile",
+            "black"
+        ],
+        "path": [],
+        "severity": {
+            "W": "Warning",
+            "E": "Hint"
+        },
+        "interpreter": [
+            "/home/sterben/projects/totalvideo_management/.venv/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    },
+    {
+        "check": false,
+        "cwd": "/home/sterben/projects/totalvideo_auth",
+        "workspace": "file:///home/sterben/projects/totalvideo_auth",
+        "args": [
+            "--profile",
+            "black"
+        ],
+        "path": [],
+        "severity": {
+            "W": "Warning",
+            "E": "Hint"
+        },
+        "interpreter": [
+            "/usr/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    },
+    {
+        "check": false,
+        "cwd": "/home/sterben/projects/totalvideo_cdn_manager",
+        "workspace": "file:///home/sterben/projects/totalvideo_cdn_manager",
+        "args": [
+            "--profile",
+            "black"
+        ],
+        "path": [],
+        "severity": {
+            "W": "Warning",
+            "E": "Hint"
+        },
+        "interpreter": [
+            "/usr/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    },
+    {
+        "check": false,
+        "cwd": "/home/sterben/projects/core-microservice",
+        "workspace": "file:///home/sterben/projects/core-microservice",
+        "args": [
+            "--profile",
+            "black"
+        ],
+        "path": [],
+        "severity": {
+            "W": "Warning",
+            "E": "Hint"
+        },
+        "interpreter": [
+            "/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    },
+    {
+        "check": false,
+        "cwd": "/home/sterben/projects/sqlalchemy-utils",
+        "workspace": "file:///home/sterben/projects/sqlalchemy-utils",
+        "args": [
+            "--profile",
+            "black"
+        ],
+        "path": [],
+        "severity": {
+            "W": "Warning",
+            "E": "Hint"
+        },
+        "interpreter": [
+            "/usr/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2025-06-05 12:14:50.764 [info] Global settings:
+{
+    "check": false,
+    "cwd": "/home/sterben",
+    "workspace": "/home/sterben",
+    "args": [
+        "--profile",
+        "black"
+    ],
+    "path": [],
+    "severity": {
+        "W": "Warning",
+        "E": "Hint"
+    },
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2025-06-05 12:14:50.767 [info] /home/sterben/projects/totalvideo_management/.venv/bin/python -m isort --version-number
+2025-06-05 12:14:50.767 [info] CWD Linter: /home/sterben/projects/totalvideo_management
+2025-06-05 12:14:50.866 [info] Version info for isort running for /home/sterben/projects/totalvideo_management:
+5.13.2
+
+2025-06-05 12:14:50.866 [info] SUPPORTED isort>=5.10.1
+FOUND isort==5.13.2
+
+2025-06-05 12:14:50.866 [info] /usr/bin/python -m isort --version-number
+2025-06-05 12:14:50.866 [info] CWD Linter: /home/sterben/projects/totalvideo_auth
+2025-06-05 12:14:50.871 [info] Version info for isort running for /home/sterben/projects/totalvideo_auth:
+5.13.2
+
+2025-06-05 12:14:50.871 [info] SUPPORTED isort>=5.10.1
+FOUND isort==5.13.2
+
+2025-06-05 12:14:50.871 [info] /usr/bin/python -m isort --version-number
+2025-06-05 12:14:50.871 [info] CWD Linter: /home/sterben/projects/totalvideo_cdn_manager
+2025-06-05 12:14:50.872 [info] Version info for isort running for /home/sterben/projects/totalvideo_cdn_manager:
+5.13.2
+
+2025-06-05 12:14:50.872 [info] SUPPORTED isort>=5.10.1
+FOUND isort==5.13.2
+
+2025-06-05 12:14:50.872 [info] /bin/python -m isort --version-number
+2025-06-05 12:14:50.872 [info] CWD Linter: /home/sterben/projects/core-microservice
+2025-06-05 12:14:50.957 [info] Version info for isort running for /home/sterben/projects/core-microservice:
+5.13.2
+
+2025-06-05 12:14:50.957 [info] SUPPORTED isort>=5.10.1
+FOUND isort==5.13.2
+
+2025-06-05 12:14:50.957 [info] /usr/bin/python -m isort --version-number
+2025-06-05 12:14:50.957 [info] CWD Linter: /home/sterben/projects/sqlalchemy-utils
+2025-06-05 12:14:50.958 [info] Version info for isort running for /home/sterben/projects/sqlalchemy-utils:
+5.13.2
+
+2025-06-05 12:14:50.958 [info] SUPPORTED isort>=5.10.1
+FOUND isort==5.13.2
+

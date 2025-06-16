@@ -1,0 +1,22 @@
+2025-06-07 13:11:04.070 [info] Telemetry level is off
+2025-06-07 13:11:04.070 [info] Experiments are disabled, only manually opted experiments are active.
+2025-06-07 13:11:04.070 [warning] Dir "/home/sterben/projects/totalvideo_management/.pixi/envs" is not watchable (directory does not exist)
+2025-06-07 13:11:04.070 [warning] Dir "/home/sterben/projects/totalvideo_auth/.pixi/envs" is not watchable (directory does not exist)
+2025-06-07 13:11:04.070 [warning] Dir "/home/sterben/projects/totalvideo_cdn_manager/.pixi/envs" is not watchable (directory does not exist)
+2025-06-07 13:11:04.070 [warning] Dir "/home/sterben/projects/core-microservice/.pixi/envs" is not watchable (directory does not exist)
+2025-06-07 13:11:04.070 [warning] Dir "/home/sterben/projects/sqlalchemy-utils/.pixi/envs" is not watchable (directory does not exist)
+2025-06-07 13:11:04.070 [info] Python interpreter path: ./.venv/bin/python
+2025-06-07 13:11:04.708 [info] > pyenv which python
+2025-06-07 13:11:04.708 [info] cwd: ~/projects/totalvideo_management
+2025-06-07 13:11:05.133 [info] Starting Pylance language server.
+2025-06-07 13:11:50.117 [info] Telemetry level is off
+2025-06-07 13:11:50.117 [info] Experiments are disabled, only manually opted experiments are active.
+2025-06-07 13:11:50.117 [warning] Dir "/home/sterben/projects/totalvideo_management/.pixi/envs" is not watchable (directory does not exist)
+2025-06-07 13:11:50.117 [warning] Dir "/home/sterben/projects/totalvideo_auth/.pixi/envs" is not watchable (directory does not exist)
+2025-06-07 13:11:50.117 [warning] Dir "/home/sterben/projects/totalvideo_cdn_manager/.pixi/envs" is not watchable (directory does not exist)
+2025-06-07 13:11:50.117 [warning] Dir "/home/sterben/projects/core-microservice/.pixi/envs" is not watchable (directory does not exist)
+2025-06-07 13:11:50.117 [warning] Dir "/home/sterben/projects/sqlalchemy-utils/.pixi/envs" is not watchable (directory does not exist)
+2025-06-07 13:11:50.117 [info] Python interpreter path: ./.venv/bin/python
+2025-06-07 13:11:50.152 [info] > pyenv which python
+2025-06-07 13:11:50.152 [info] cwd: ~/projects/totalvideo_management
+2025-06-07 13:11:50.627 [info] Starting Pylance language server.

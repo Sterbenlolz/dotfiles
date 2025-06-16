@@ -1,0 +1,7 @@
+2025-06-09 17:34:38.405 [info] Started local extension host with pid 4251.
+2025-06-09 17:34:38.439 [info] ComputeTargetPlatform: linux-x64
+2025-06-09 17:34:38.535 [info] Placing extension(s) asvetliakov.vscode-neovim on a separate extension host.
+2025-06-09 17:34:38.743 [info] Started local extension host with pid 4311.
+2025-06-09 17:34:38.939 [error] [hollowtree.vue-snippets]: Unknown language in `contributes.vue-snippets.language`. Provided value: vue-html
+2025-06-09 17:34:38.940 [error] [sdras.vue-vscode-snippets]: Unknown language in `contributes.vue-vscode-snippets.language`. Provided value: vue-html
+2025-06-09 17:34:40.677 [info] [perf] Render performance baseline is 14ms

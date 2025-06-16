@@ -1,0 +1,164 @@
+2025-06-07 13:11:03.720 [info] Extension host with pid 3323 started
+2025-06-07 13:11:03.720 [info] Skipping acquiring lock for /home/sterben/.config/VSCodium/User/workspaceStorage/13fa16ccef8414bbc3ac2f86e36b8053.
+2025-06-07 13:11:03.765 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-07 13:11:03.771 [info] ExtensionService#_doActivateExtension mikoz.composite-formatter, startup: true, activationEvent: '*'
+2025-06-07 13:11:03.773 [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion, startup: true, activationEvent: '*'
+2025-06-07 13:11:03.826 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:requirements.txt'
+2025-06-07 13:11:03.990 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-07 13:11:04.017 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-07 13:11:04.283 [info] ExtensionService#_doActivateExtension ms-python.black-formatter, startup: true, activationEvent: 'workspaceContains:pyproject.toml'
+2025-06-07 13:11:04.305 [info] ExtensionService#_doActivateExtension ms-python.isort, startup: true, activationEvent: 'workspaceContains:pyproject.toml'
+2025-06-07 13:11:04.326 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: true, activationEvent: 'workspaceContains:pyproject.toml'
+2025-06-07 13:11:04.597 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-06-07 13:11:04.601 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-06-07 13:11:04.608 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-06-07 13:11:04.636 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-06-07 13:11:04.650 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-07 13:11:04.660 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-07 13:11:04.749 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'api', root cause: ms-python.python
+2025-06-07 13:11:04.788 [info] Eager extensions activated
+2025-06-07 13:11:04.811 [error] Activating extension ms-python.debugpy failed due to an error:
+2025-06-07 13:11:04.811 [error] Error: EACCES: permission denied, mkdir '/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints'
+    at Object.mkdirSync (node:fs:1372:26)
+    at t.registerNoConfigDebug (/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/dist/extension.js:2:849107)
+    at t.registerDebugger (/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/dist/extension.js:2:848115)
+    at e.activate (/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/dist/extension.js:2:1098056)
+    at Function._callActivateOptional (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:18703)
+    at Function._callActivate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:18372)
+    at file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:16306
+    at Nw._activate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:16269)
+    at Nw._waitForDepsThenActivate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:16211)
+    at Nw._initialize (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:15574)
+2025-06-07 13:11:04.818 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-07 13:11:04.820 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-07 13:11:04.830 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2025-06-07 13:11:04.848 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2025-06-07 13:11:04.919 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2025-06-07 13:11:04.920 [info] ExtensionService#_doActivateExtension elagil.pre-commit-helper, startup: false, activationEvent: 'onStartupFinished'
+2025-06-07 13:11:04.927 [info] ExtensionService#_doActivateExtension Gruntfuggly.todo-tree, startup: false, activationEvent: 'onStartupFinished'
+2025-06-07 13:11:04.947 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2025-06-07 13:11:05.244 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-07 13:11:05.811 [error] Error: EACCES: permission denied, mkdir '/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints'
+    at Object.mkdirSync (node:fs:1372:26)
+    at t.registerNoConfigDebug (/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/dist/extension.js:2:849107)
+    at t.registerDebugger (/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/dist/extension.js:2:848115)
+    at e.activate (/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/dist/extension.js:2:1098056)
+    at Function._callActivateOptional (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:18703)
+    at Function._callActivate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:18372)
+    at file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:16306
+    at Nw._activate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:16269)
+    at Nw._waitForDepsThenActivate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:16211)
+    at Nw._initialize (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:15574)
+2025-06-07 13:11:05.812 [error] Error: EACCES: permission denied, mkdir '/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints'
+    at Object.mkdirSync (node:fs:1372:26)
+    at t.registerNoConfigDebug (/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/dist/extension.js:2:849107)
+    at t.registerDebugger (/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/dist/extension.js:2:848115)
+    at e.activate (/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/dist/extension.js:2:1098056)
+    at Function._callActivateOptional (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:18703)
+    at Function._callActivate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:18372)
+    at file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:16306
+    at Nw._activate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:16269)
+    at Nw._waitForDepsThenActivate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:16211)
+    at Nw._initialize (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:15574)
+2025-06-07 13:11:10.900 [info] ExtensionService#_doActivateExtension Vue.volar, startup: false, activationEvent: 'onLanguage:plaintext'
+2025-06-07 13:11:23.491 [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: 'onStartupFinished'
+2025-06-07 13:11:48.941 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-07 13:11:48.957 [error] An error occurred when disposing the subscriptions for extension 'Gruntfuggly.todo-tree':
+2025-06-07 13:11:48.957 [error] AggregateError: Encountered errors while disposing of store
+    at Si (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:822)
+    at file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:18462
+    at file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1056
+    at Object.dispose (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at PQ._deactivate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:14727)
+    at file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:12013
+    at Array.map (<anonymous>)
+    at PQ._deactivateAll (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:12001)
+    at PQ.terminate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:12354)
+    at v8.terminate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:1602)
+    at ds (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:225:5829)
+    at MessagePortMain.<anonymous> (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:225:2284)
+    at MessagePortMain.emit (node:events:524:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-06-07 13:11:48.961 [info] Extension host with pid 3323 exiting with code 0
+2025-06-07 13:11:49.277 [info] Extension host with pid 4490 started
+2025-06-07 13:11:49.277 [info] Skipping acquiring lock for /home/sterben/.config/VSCodium/User/workspaceStorage/13fa16ccef8414bbc3ac2f86e36b8053.
+2025-06-07 13:11:49.283 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-06-07 13:11:49.288 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-06-07 13:11:49.295 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-06-07 13:11:49.329 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-06-07 13:11:49.343 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-07 13:11:49.351 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-07 13:11:49.377 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-07 13:11:49.388 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onCommand:vscode-html-css.validate'
+2025-06-07 13:11:49.389 [info] ExtensionService#_doActivateExtension Vue.volar, startup: false, activationEvent: 'onLanguage:plaintext'
+2025-06-07 13:11:49.560 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-07 13:11:49.561 [info] ExtensionService#_doActivateExtension mikoz.composite-formatter, startup: true, activationEvent: '*'
+2025-06-07 13:11:49.562 [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion, startup: true, activationEvent: '*'
+2025-06-07 13:11:49.607 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:requirements.txt'
+2025-06-07 13:11:49.741 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-07 13:11:49.767 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-07 13:11:49.859 [info] ExtensionService#_doActivateExtension ms-python.black-formatter, startup: true, activationEvent: 'workspaceContains:pyproject.toml'
+2025-06-07 13:11:49.879 [info] ExtensionService#_doActivateExtension ms-python.isort, startup: true, activationEvent: 'workspaceContains:pyproject.toml'
+2025-06-07 13:11:49.898 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: true, activationEvent: 'workspaceContains:pyproject.toml'
+2025-06-07 13:11:50.199 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'api', root cause: ms-python.python
+2025-06-07 13:11:50.229 [info] Eager extensions activated
+2025-06-07 13:11:50.252 [error] Activating extension ms-python.debugpy failed due to an error:
+2025-06-07 13:11:50.252 [error] Error: EACCES: permission denied, mkdir '/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints'
+    at Object.mkdirSync (node:fs:1372:26)
+    at t.registerNoConfigDebug (/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/dist/extension.js:2:849107)
+    at t.registerDebugger (/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/dist/extension.js:2:848115)
+    at e.activate (/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/dist/extension.js:2:1098056)
+    at Function._callActivateOptional (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:18703)
+    at Function._callActivate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:18372)
+    at file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:16306
+    at Nw._activate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:16269)
+    at Nw._waitForDepsThenActivate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:16211)
+    at Nw._initialize (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:15574)
+2025-06-07 13:11:50.263 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-07 13:11:50.264 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-07 13:11:50.275 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2025-06-07 13:11:50.293 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2025-06-07 13:11:50.365 [info] ExtensionService#_doActivateExtension elagil.pre-commit-helper, startup: false, activationEvent: 'onStartupFinished'
+2025-06-07 13:11:50.370 [info] ExtensionService#_doActivateExtension Gruntfuggly.todo-tree, startup: false, activationEvent: 'onStartupFinished'
+2025-06-07 13:11:50.392 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2025-06-07 13:11:50.787 [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: 'onStartupFinished'
+2025-06-07 13:11:51.253 [error] Error: EACCES: permission denied, mkdir '/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints'
+    at Object.mkdirSync (node:fs:1372:26)
+    at t.registerNoConfigDebug (/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/dist/extension.js:2:849107)
+    at t.registerDebugger (/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/dist/extension.js:2:848115)
+    at e.activate (/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/dist/extension.js:2:1098056)
+    at Function._callActivateOptional (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:18703)
+    at Function._callActivate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:18372)
+    at file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:16306
+    at Nw._activate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:16269)
+    at Nw._waitForDepsThenActivate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:16211)
+    at Nw._initialize (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:15574)
+2025-06-07 13:11:51.253 [error] Error: EACCES: permission denied, mkdir '/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints'
+    at Object.mkdirSync (node:fs:1372:26)
+    at t.registerNoConfigDebug (/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/dist/extension.js:2:849107)
+    at t.registerDebugger (/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/dist/extension.js:2:848115)
+    at e.activate (/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/dist/extension.js:2:1098056)
+    at Function._callActivateOptional (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:18703)
+    at Function._callActivate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:18372)
+    at file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:16306
+    at Nw._activate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:16269)
+    at Nw._waitForDepsThenActivate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:16211)
+    at Nw._initialize (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:15574)
+2025-06-07 13:11:54.083 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-07 13:11:54.098 [error] An error occurred when disposing the subscriptions for extension 'Gruntfuggly.todo-tree':
+2025-06-07 13:11:54.098 [error] AggregateError: Encountered errors while disposing of store
+    at Si (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:822)
+    at file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:18462
+    at file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1056
+    at Object.dispose (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at PQ._deactivate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:14727)
+    at file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:12013
+    at Array.map (<anonymous>)
+    at PQ._deactivateAll (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:12001)
+    at PQ.terminate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:12354)
+    at v8.terminate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:1602)
+    at ds (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:225:5829)
+    at MessagePortMain.<anonymous> (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:225:2284)
+    at MessagePortMain.emit (node:events:524:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-06-07 13:11:54.102 [info] Extension host with pid 4490 exiting with code 0

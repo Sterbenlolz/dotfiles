@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"name": "totalvideo_management",
+			"path": "../../../../projects/totalvideo_management"
+		},
+		{
+			"name": "totalvideo_auth",
+			"path": "../../../../projects/totalvideo_auth"
+		},
+		{
+			"name": "totalvideo_cdn_manager",
+			"path": "../../../../projects/totalvideo_cdn_manager"
+		},
+		{
+			"name": "core-microservice",
+			"path": "../../../../projects/core-microservice"
+		},
+		{
+			"name": "sqlalchemy-utils",
+			"path": "../../../../projects/sqlalchemy-utils"
+		}
+	]
+}

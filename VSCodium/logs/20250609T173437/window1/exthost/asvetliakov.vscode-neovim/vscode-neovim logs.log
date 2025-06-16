@@ -1,0 +1,15 @@
+2025-06-09 17:34:39.112 [info] MainController: Starting nvim: /usr/bin/nvim -N --embed --cmd source /home/sterben/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.18.22-universal/runtime/vscode-neovim.vim
+2025-06-09 17:34:39.141 [info] MainController: Nvim info: {
+  nvimVersion: {
+    patch: 2,
+    build: 'dirty',
+    prerelease: false,
+    api_level: 13,
+    api_prerelease: false,
+    api_compatible: 0,
+    major: 0,
+    minor: 11
+  },
+  logFile: '/home/sterben/.local/state/nvim/log',
+  configDir: '/home/sterben/.config/nvim'
+}

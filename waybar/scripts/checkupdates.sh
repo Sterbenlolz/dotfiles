@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-checkupdates-with-aur() {
+checkupdates_with_aur() {
 	checkupdates &
 	pacman -Qm | aur vercmp &
 	wait
@@ -28,7 +28,7 @@ stringToLen() {
 	fi
 }
 
-check checkupdates-with-aur || {
+check checkupdates_with_aur || {
 	cat <<EOF
   {"text":"<span color='#f7768e' font-size='x-large'></span>","tooltip":"pacman-contrib or aurutils is not installed"}
 EOF
@@ -36,8 +36,8 @@ EOF
 }
 IFS=$'\n'$'\r'
 
-killall -q checkupdates-with-aur
-mapfile -t updates < <(checkupdates-with-aur)
+killall -q checkupdates_with_aur
+mapfile -t updates < <(checkupdates_with_aur)
 
 text=${#updates[@]}
 

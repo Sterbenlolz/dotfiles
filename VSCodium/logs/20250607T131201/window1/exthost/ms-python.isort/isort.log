@@ -1,0 +1,23 @@
+2025-06-07 13:12:03.012 [info] Name: isort
+2025-06-07 13:12:03.012 [info] Module: isort
+2025-06-07 13:12:03.012 [info] Python extension loading
+2025-06-07 13:12:03.012 [info] Waiting for interpreter from python extension.
+2025-06-07 13:12:03.012 [info] Python extension loaded
+2025-06-07 13:12:03.012 [info] No interpreter found from setting isort.interpreter
+2025-06-07 13:12:03.012 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/totalvideo_auth
+2025-06-07 13:12:03.012 [info] Interpreter from ms-python.python extension for /home/sterben/projects/totalvideo_auth: /usr/bin/python
+2025-06-07 13:12:03.012 [info] No interpreter found from setting isort.interpreter
+2025-06-07 13:12:03.012 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/totalvideo_management
+2025-06-07 13:12:03.012 [info] No interpreter found from setting isort.interpreter
+2025-06-07 13:12:03.012 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/totalvideo_auth
+2025-06-07 13:12:03.012 [info] No interpreter found from setting isort.interpreter
+2025-06-07 13:12:03.012 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/totalvideo_cdn_manager
+2025-06-07 13:12:03.012 [info] No interpreter found from setting isort.interpreter
+2025-06-07 13:12:03.012 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/core-microservice
+2025-06-07 13:12:03.012 [info] No interpreter found from setting isort.interpreter
+2025-06-07 13:12:03.012 [info] Getting interpreter from ms-python.python extension for workspace /home/sterben/projects/sqlalchemy-utils
+2025-06-07 13:12:03.012 [info] Interpreter from ms-python.python extension for /home/sterben/projects/totalvideo_management: /home/sterben/projects/totalvideo_management/.venv/bin/python
+2025-06-07 13:12:03.012 [info] Interpreter from ms-python.python extension for /home/sterben/projects/totalvideo_auth: /usr/bin/python
+2025-06-07 13:12:03.012 [info] Interpreter from ms-python.python extension for /home/sterben/projects/totalvideo_cdn_manager: /usr/bin/python
+2025-06-07 13:12:03.012 [info] Interpreter from ms-python.python extension for /home/sterben/projects/sqlalchemy-utils: /usr/bin/python
+2025-06-07 13:12:03.012 [info] Interpreter from ms-python.python extension for /home/sterben/projects/core-microservice: /bin/python

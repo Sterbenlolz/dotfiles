@@ -1,0 +1,129 @@
+@import "./wallust/colors-waybar.css";
+
+* {
+    border: none;
+    border-radius: 0;
+	font-family: "JetBrainsMono NFP";
+    font-size: 16px;
+    min-height: 0;
+	padding: 0 5px;
+/*	transition-duration: 0.3s; */
+	font-weight: bold;
+}
+
+#language {
+	color: @color8;
+}
+
+#language:hover {
+	color: @foreground;
+}
+
+#waybar {
+  background-color: @color4;
+  border: none;
+  box-shadow: none;
+}
+
+window#waybar {
+    background: transparent;
+    color: @color8;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+    background-color: @background;
+    border: 2px solid @color10;
+    border-radius: 0px;
+    padding: 0px 2px 2px;
+    margin-top: 4px;
+}
+
+#workspaces button {
+    box-shadow: 0 -2px 0 0 @color0;
+    padding: 0;
+    background: transparent;
+    transition-property: box-shadow, color;
+    transition-duration: 0.3s, 0.3s;
+    color: @color0;
+
+}
+
+#workspaces button.active {
+	padding: 0;
+	color: @color8;
+	box-shadow: 0 -2px 0 0 @color8;
+	transition: box-shadow 0.3s ease;
+    transition-duration: 0.3s;
+}
+
+#workspaces button:hover {
+	color: @foreground;
+	box-shadow: 0 -2px 0 0 @foreground;
+	transition: box-shadow 0.3s ease;
+    transition-duration: 0.3s;
+}
+
+#mode {
+    background: @color8;
+    border-bottom: 3px solid @color8;
+}
+
+#clock, #battery, #cpu, #memory, #network, #pulseaudio, #tray, #mode {
+    margin: 0 5px
+}
+
+#clock {	
+	color: @color8;
+    font-weight: bold;
+}
+
+#clock:hover {
+	color: @foreground;
+}
+
+
+@keyframes blink {
+    to {
+        background-color: @background;
+        color: @cursor;
+    }
+}
+
+#cpu {
+}
+
+#memory {
+}
+
+#network {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#network.disconnected {
+    background: @color12;
+}
+
+#network:hover {
+	color: @foreground;
+}
+
+#network.details {
+   all: unset;
+   padding-left: 5px;
+   padding-right: 5px;
+   margin-bottom: -3px;
+}
+
+#tray {
+}
+
+#custom-notification:hover {
+	color: @foreground;
+}
+
+#custom-updates:hover {
+    color: @foreground;
+}

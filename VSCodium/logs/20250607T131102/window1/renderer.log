@@ -1,0 +1,12 @@
+2025-06-07 13:11:03.401 [info] Started local extension host with pid 3323.
+2025-06-07 13:11:03.440 [info] ComputeTargetPlatform: linux-x64
+2025-06-07 13:11:03.575 [warning] No search provider registered for scheme: file, waiting
+2025-06-07 13:11:04.433 [error] [hollowtree.vue-snippets]: Unknown language in `contributes.vue-snippets.language`. Provided value: vue-html
+2025-06-07 13:11:04.434 [error] [sdras.vue-vscode-snippets]: Unknown language in `contributes.vue-vscode-snippets.language`. Provided value: vue-html
+2025-06-07 13:11:05.813 [error] Activating extension 'ms-python.debugpy' failed: EACCES: permission denied, mkdir '/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints'.
+2025-06-07 13:11:06.268 [info] [perf] Render performance baseline is 23ms
+2025-06-07 13:11:23.450 [info] Ignoring configured affinity for 'asvetliakov.vscode-neovim' because extension host(s) are already running. Reload window.
+2025-06-07 13:11:48.982 [info] Started local extension host with pid 4490.
+2025-06-07 13:11:49.472 [error] No registered selector for ID: ms-vscode.npm-command
+2025-06-07 13:11:50.255 [info] Ignoring configured affinity for 'asvetliakov.vscode-neovim' because extension host(s) are already running. Reload window.
+2025-06-07 13:11:51.254 [error] Activating extension 'ms-python.debugpy' failed: EACCES: permission denied, mkdir '/home/sterben/.vscode-oss/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints'.
