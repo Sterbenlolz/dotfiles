@@ -54,9 +54,9 @@ vim.o.showmode = false
 --  Schedule the setting after `UiEnter` because it can increase startup-time.
 --  Remove this option if you want your OS clipboard to remain independent.
 --  See `:help 'clipboard'`
-vim.schedule(function()
-  vim.o.clipboard = 'unnamedplus'
-end)
+-- vim.schedule(function()
+--   vim.o.clipboard = 'unnamedplus'
+-- end)
 
 -- Enable break indent
 vim.o.breakindent = true
@@ -108,14 +108,54 @@ vim.o.confirm = true
 
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
-
+vim.keymap.set('n', '<leader>q', '<cmd>qa<CR>')
+vim.keymap.set('v', '<leader>ss', 'y/\\V<C-r>"<Return>', { desc = '[S]earch [S]elected (as plain text)' })
+vim.keymap.set('n', 'd', '"_d', { noremap = true, desc = 'Delete without yanking' })
+vim.keymap.set('n', 'dd', '"_dd', { noremap = true, desc = 'Delete line without yanking' })
+vim.keymap.set('n', 'c', '"_c', { noremap = true, desc = 'Change without yanking' })
+vim.keymap.set('n', 'cc', '"_cc', { noremap = true, desc = 'Change line without yanking' })
+vim.keymap.set('x', '<leader>x', 'd', { noremap = true, desc = 'Cut' })
+vim.keymap.set({ 'n', 'x' }, '<leader>X', 'dd', { noremap = true, desc = 'Cut line' })
 -- Clear highlights on search when pressing <Esc> in normal mode
 --  See `:help hlsearch`
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
 -- Diagnostic keymaps
-vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
+vim.diagnostic.handlers.loclist = {
+  show = function(_, _, _, opts)
+    -- Generally don't want it to open on every update
+    opts.loclist.open = opts.loclist.open or false
+    local winid = vim.api.nvim_get_current_win()
+    vim.diagnostic.setloclist(opts.loclist)
+    vim.api.nvim_set_current_win(winid)
+  end,
+}
+vim.keymap.set('n', '<leader>dq', function()
+  local current_win = vim.api.nvim_get_current_win()
+  local win_info = vim.fn.getwininfo(current_win)[1]
 
+  -- Check if current window is a location list window
+  if win_info and win_info.loclist == 1 then
+    -- We're in the location list, so close it
+    vim.cmd 'lclose'
+    return
+  end
+
+  -- Check if location list exists and has entries
+  local loclist = vim.fn.getloclist(0)
+  if #loclist > 0 then
+    -- Try to focus existing location list window
+    for _, winid in ipairs(vim.api.nvim_tabpage_list_wins(0)) do
+      if vim.fn.getwininfo(winid)[1].loclist == 1 then
+        vim.api.nvim_set_current_win(winid)
+        return
+      end
+    end
+  end
+
+  -- If no location list window found or no entries, open it
+  vim.diagnostic.setloclist()
+end, { desc = 'Toggle [D]iagnostic [Q]uickfix list' })
 -- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
 -- for people to discover. Otherwise, you normally need to press <C-\><C-n>, which
 -- is not what someone will guess without a bit more experience.
@@ -366,6 +406,13 @@ require('lazy').setup({
 
       -- See `:help telescope.builtin`
       local builtin = require 'telescope.builtin'
+      local function live_grep_current_file_dir()
+        local current_file_dir = vim.fn.expand '%:h'
+        builtin.live_grep {
+          search_dirs = { current_file_dir },
+          prompt_title = "Grep in Current File's Folder",
+        }
+      end
       vim.keymap.set('n', '<leader>sh', builtin.help_tags, { desc = '[S]earch [H]elp' })
       vim.keymap.set('n', '<leader>sk', builtin.keymaps, { desc = '[S]earch [K]eymaps' })
       vim.keymap.set('n', '<leader>sf', builtin.find_files, { desc = '[S]earch [F]iles' })
@@ -376,6 +423,7 @@ require('lazy').setup({
       vim.keymap.set('n', '<leader>sr', builtin.resume, { desc = '[S]earch [R]esume' })
       vim.keymap.set('n', '<leader>s.', builtin.oldfiles, { desc = '[S]earch Recent Files ("." for repeat)' })
       vim.keymap.set('n', '<leader><leader>', builtin.buffers, { desc = '[ ] Find existing buffers' })
+      vim.keymap.set('n', '<leader>scg', live_grep_current_file_dir, { desc = '[S]earch in [C]urrent directory by [G]rep' })
 
       -- Slightly advanced example of overriding default behavior and theme
       vim.keymap.set('n', '<leader>/', function()
@@ -613,7 +661,13 @@ require('lazy').setup({
       local servers = {
         -- clangd = {},
         -- gopls = {},
-        -- pyright = {},
+        pyright = {
+          settings = {
+            python = {
+              analysis = {},
+            },
+          },
+        },
         -- rust_analyzer = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
         --
@@ -621,9 +675,11 @@ require('lazy').setup({
         --    https://github.com/pmizio/typescript-tools.nvim
         --
         -- But for many setups, the LSP (`ts_ls`) will work just fine
-        -- ts_ls = {},
+        ts_ls = {},
+        taplo = {},
+        yamlls = {},
         --
-
+        jsonls = {},
         lua_ls = {
           -- cmd = { ... },
           -- filetypes = { ... },
@@ -913,19 +969,19 @@ require('lazy').setup({
   --  Here are some example plugins that I've included in the Kickstart repository.
   --  Uncomment any of the lines below to enable them (you will need to restart nvim).
   --
-  require 'kickstart.plugins.debug',
-  require 'kickstart.plugins.indent_line',
-  require 'kickstart.plugins.lint',
-  require 'kickstart.plugins.autopairs',
-  require 'kickstart.plugins.neo-tree',
-  require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
-  require 'custom.plugins.conform',
+  { import = 'kickstart.plugins' },
+  -- require 'kickstart.plugins.debug',
+  -- require 'kickstart.plugins.indent_line',
+  -- require 'kickstart.plugins.lint',
+  -- require 'kickstart.plugins.autopairs',
+  -- require 'kickstart.plugins.neo-tree',
+  -- require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    This is the easiest way to modularize your config.
   --
   --  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
-  -- { import = 'custom.plugins' },
+  { import = 'custom.plugins' },
   --
   -- For additional information with loading, sourcing and examples see `:help lazy.nvim-🔌-plugin-spec`
   -- Or use telescope!
